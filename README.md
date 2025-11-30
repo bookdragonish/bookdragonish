@@ -57,12 +57,12 @@ I enjoy building projects, learning continuously, and contributing wherever I ca
 
 ## 🌐 Contact
 
-📧 (**Email**)[mailto:ingvild.sandven@gmail.com]
-🔗  (**LinkedIn**)[https://www.linkedin.com/in/ingvild-sandven-17a158289/]
+📧 [**Email**](mailto:ingvild.sandven@gmail.com) </br>
+🔗 [**LinkedIn**](https://www.linkedin.com/in/ingvild-sandven-17a158289/)
 
 ---
 
 ## ⭐ Projects
-- (Helene Volle Portfolio)[https://helenevolle.com/]
+- [Helene Volle Portfolio](https://helenevolle.com/)
 
 
