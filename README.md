@@ -1,5 +1,3 @@
-## Hi there 👋
-
 # 🌟 Hi there — I’m Ingvild!
 ### *Computer Science student | Tech enthusiast*
 
