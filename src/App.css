@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+[data-theme="light"] {
+  --main-color: #748873;
+  --element-color: #d1a980;
+  --background-color: #f8f8f8;
+  --box-background: #e5e0d8;
+  --header-color: #3f3f3f;
+  --font-color: #282828;
+}
+
+[data-theme="dark"] {
+  --main-color: #748873;
+  --element-color: #d1a980;
+  --background-color: #282828;
+  --box-background: #3f3f3f;
+  --header-color: #e5e0d8;
+  --font-color: #f8f8f8;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  transition: background-color 0.3s ease-out, color 0.7s ease-in;
+}
