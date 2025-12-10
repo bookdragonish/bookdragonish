@@ -1,3 +1,22 @@
-.card{
-    background-color: var(--box-background);
+.card {
+  background-color: var(--box-background);
+  text-decoration: none;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+}
+
+.construction_banner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  pointer-events: none;
+  display: block;
+}
+
+.no_construction_banner {
+  display: none;
 }

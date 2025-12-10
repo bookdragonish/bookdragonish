@@ -14,9 +14,9 @@ function ConstructionCompontent() {
         <ConstructionCard
           key={project.title}
           title={project.title}
-          github={project.github}
           image={project.image}
           shortDescription={project.shortDescription}
+          endDate={project.endDate}
         />
       ))}
     </section>
