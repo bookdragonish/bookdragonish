@@ -1,0 +1,85 @@
+{
+  "projects": [
+    {
+      "title": "TaskFlow Manager",
+      "github": "https://github.com/example/taskflow-manager",
+      "image": ["https://example.com/images/taskflow.jpg"],
+      "shortDescription": "A productivity web app that helps teams track tasks and collaboration.",
+      "startDate": "2024-02-10",
+      "endDate": "2024-05-25",
+      "collaborators": [
+        {
+          "name": "Alice Morgan",
+          "email": "alice.morgan@example.com",
+          "github": "https://github.com/alicemorgan"
+        },
+        {
+          "name": "James Turner",
+          "email": "james.turner@example.com",
+          "github": "https://github.com/jturner"
+        }
+      ],
+      "longDescription": {
+        "intro": "TaskFlow Manager is a full-stack project management tool designed for remote teams.",
+        "motivation": "We wanted a lightweight alternative to existing tools that felt too bloated or overpriced.",
+        "process": "We planned user flows, built UI wireframes, iterated on API design, and deployed staging builds for testing.",
+        "futureAdditions": "Slack integration, AI scheduling, Kanban templates, multi-tenant support.",
+        "technologyHighlights": "React, TypeScript, Prisma, TailwindCSS, PostgreSQL, Vercel hosting.",
+        "highlights": ["Very cool 1", "Yess"]
+    }
+    },
+
+    {
+      "title": "EcoRoute Navigator",
+      "github": "https://github.com/example/ecoroute-navigator",
+      "image": ["https://example.com/images/ecoroute.jpg"],
+      "shortDescription": "App suggesting eco-friendly routes using live traffic and transit data.",
+      "startDate": "2023-09-01",
+      "endDate": "2024-01-20",
+      "collaborators": [
+        {
+          "name": "Michael Chen",
+          "email": "michael.chen@example.com",
+          "github": "https://github.com/michaelchen"
+        }
+      ],
+      "longDescription": {
+        "intro": "EcoRoute Navigator is a sustainability-focused travel assistant.",
+        "motivation": "Fuel prices and climate concerns motivated us to develop greener travel logic.",
+        "process": "We experimented with graph algorithms, transit APIs, offline caching, and heuristic route scoring.",
+        "futureAdditions": "Carbon scoring badges, smartwatch support, voice navigation, social eco challenges.",
+        "technologyHighlights": "React Native, Expo, Mapbox SDK, Firebase messaging, GraphQL backend.",
+        "highlights": ["Very cool 1", "Yess"]
+    }
+    },
+
+    {
+      "title": "RecipeVerse AI",
+      "github": "https://github.com/example/recipeverse-ai",
+      "image": ["https://example.com/images/recipeverse.jpg"],
+      "shortDescription": "AI recipe assistant turning leftover ingredients into creative meals.",
+      "startDate": "2024-06-12",
+      "endDate": "2024-09-05",
+      "collaborators": [
+        {
+          "name": "Sofia Martinez",
+          "email": "sofia.martinez@example.com",
+          "github": "https://github.com/smartinez"
+        },
+        {
+          "name": "Daniel Rossi",
+          "email": "daniel.rossi@example.com",
+          "github": "https://github.com/drossidev"
+        }
+      ],
+      "longDescription": {
+        "intro": "RecipeVerse AI brings creativity into kitchens through intelligent ingredient-based meal suggestions.",
+        "motivation": "Food waste inspired us — we wanted a system that helps users reuse what they have.",
+        "process": "We curated datasets, built prompt-generated outputs, evaluated flavor scoring, and implemented dynamic filtering.",
+        "futureAdditions": "Community recipe uploading, calorie tracking, multilingual personalization, premium AI kitchen tutor.",
+        "technologyHighlights": "Next.js, Python AI inference, OpenAI API, MongoDB, Chakra UI.",
+        "highlights": ["Very cool 1", "Yess"]
+    }
+    }
+  ]
+}

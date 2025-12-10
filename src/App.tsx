@@ -2,10 +2,12 @@
 import "./App.css";
 import { Outlet, Route, Routes } from "react-router";
 import { ThemeProvider } from "./context/ThemeContext";
-import ToggleThemeButton from "./components/ToggleThemeButton";
+import HomePage from "./pages/HomePage/HomePage";
+import Navbar from "./components/Navbar/Navbar";
+import ProjectPage from "./pages/ProjectPage/ProjectPage";
 
 function Layout() {
-  return <Outlet />;
+  return (<><Navbar/> <Outlet /></>);
 }
 
 function App() {
@@ -13,7 +15,8 @@ function App() {
     <ThemeProvider>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<><h1>HelloWorld</h1><ToggleThemeButton/></>} />
+          <Route index element={<HomePage/>} />
+          <Route path="/project/:id" element={<ProjectPage/>} />
         </Route>
       </Routes>
     </ThemeProvider>
