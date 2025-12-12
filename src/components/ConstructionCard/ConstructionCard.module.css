@@ -1,6 +1,5 @@
 .card {
   background-color: var(--box-background);
-  text-decoration: none;
   position: relative;
 }
 

@@ -5,6 +5,7 @@ import { ThemeProvider } from "./context/ThemeContext";
 import HomePage from "./pages/HomePage/HomePage";
 import Navbar from "./components/Navbar/Navbar";
 import ProjectPage from "./pages/ProjectPage/ProjectPage";
+import ExperiencePage from "./pages/ExperiencePage/ExperiencePage";
 
 function Layout() {
   return (<><Navbar/> <Outlet /></>);
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage/>} />
           <Route path="/project/:id" element={<ProjectPage/>} />
+          <Route path="/experience/:id" element={<ExperiencePage/>}/>
         </Route>
       </Routes>
     </ThemeProvider>
