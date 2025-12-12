@@ -27,3 +27,7 @@ body {
   color: var(--font-color);
   transition: background-color 0.3s ease-out, color 0.7s ease-in;
 }
+
+a{
+  transition: background-color 0.3s ease-out, color 0.7s ease-in;
+}

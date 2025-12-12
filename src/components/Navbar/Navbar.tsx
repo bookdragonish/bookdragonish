@@ -1,8 +1,9 @@
 import ToggleThemeButton from "../ToggleThemeButton/ToggleThemeButton";
+import style from "./Navbar.module.css";
 
 function Navbar(){
     return(
-        <nav>
+        <nav className={style.nav}>
             <ToggleThemeButton/>
         </nav>
     );

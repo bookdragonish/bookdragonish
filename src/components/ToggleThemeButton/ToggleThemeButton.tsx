@@ -1,12 +1,14 @@
+import { useTheme } from "../../context/ThemeContext";
+import style from "./ToggleThemeButton.module.css";
 
-import { useTheme } from '../../context/ThemeContext';
-
-function ToggleThemeButton () {
+function ToggleThemeButton() {
   const { theme, toggleTheme } = useTheme();
 
   return (
-      <button onClick={toggleTheme}>{theme}</button>
+    <button onClick={toggleTheme} className={style.slider}>
+      <span className={`${style.slider_ball} ${theme === "light" ? style.slider_light : style.slider_dark}`}/>
+    </button>
   );
-};
+}
 
 export default ToggleThemeButton;

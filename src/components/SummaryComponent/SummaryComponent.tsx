@@ -7,7 +7,7 @@ function SummaryComponent() {
   return (
     <section>
       <article>
-        <img src="/public/selfie.jpg" alt="selfie image" />
+        <img src="/selfie.jpg" alt="selfie image" />
       </article>
       <article>
         <ul>

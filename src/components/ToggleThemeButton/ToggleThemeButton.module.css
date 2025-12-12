@@ -1,0 +1,25 @@
+.slider{
+    height: 30px;
+    width: 60px;
+    border: var(--element-color) 2px solid;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0);
+}
+
+.slider_ball{
+    width: 20px;
+    height: 20px;
+    background-color: var(--element-color);
+    border-radius: 100%;
+    display: block;
+}
+
+.slider_light{
+    transform: translateX(0px);
+    transition: transform 0.3s ease-in;
+}
+
+.slider_dark{
+    transform: translateX(28px);
+    transition: transform 0.3s ease-in;
+}
