@@ -11,7 +11,7 @@ function ConstructionCard({
   const url = title.replaceAll(" ", "_");
 
   return (
-    <article>
+    <article className={style.card_container}>
       <Link to={url} className={style.card}>
         <img src={image[0]} alt={title} />
         <h2>{title}</h2>

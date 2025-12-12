@@ -1,19 +1,35 @@
-.card {
+.card_container {
   background-color: var(--box-background);
+  padding: 2px;
+  border-radius: 15px;
+  min-width: 200px;
+  max-width: 400px;
   position: relative;
 }
 
 .card img {
   width: 100%;
+  overflow: hidden;
+  border-radius:  15px 15px 0px 0px;
+}
+
+.card p {
+  display: none;
+}
+
+.card:hover p {
+  display: block;
 }
 
 .construction_banner {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   width: 100%;
+  max-width: 200px;
   pointer-events: none;
   display: block;
+  border-radius: 15px;
 }
 
 .no_construction_banner {

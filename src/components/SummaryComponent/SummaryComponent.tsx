@@ -5,7 +5,7 @@ import style from "./SummaryComponent.module.css";
 
 function SummaryComponent() {
   return (
-    <section>
+    <section className={style.summary_container}>
       <article>
         <img src="/selfie.jpg" alt="selfie image" />
       </article>
