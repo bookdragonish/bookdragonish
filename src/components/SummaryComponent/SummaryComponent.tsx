@@ -6,6 +6,7 @@ import style from "./SummaryComponent.module.css";
 function SummaryComponent() {
   return (
     <section className={style.summary_container}>
+      <h1>Ingvild Sandven</h1>
       <article>
         <img src="/selfie.jpg" alt="selfie image" />
       </article>
@@ -15,8 +16,9 @@ function SummaryComponent() {
           <li>Email: ingvild.sandven@gmail.com</li>
           <li>IP address: ...</li>
         </ul>
-        <span>Linkdin</span>
-        <span>Github</span>
+        <SkillButton skill={"Linkdin"} logo={"/src/assets/icons/linkedin.svg"} link={"www.linkedin.com/in/ingvild-sandven-17a158289"} />
+        <SkillButton skill={"GitHub"} logo={"/src/assets/icons/github.svg"} link={"https://github.com/bookdragonish"} />
+
       </article>
       <article>
         <div className={style.design_container}>
@@ -42,8 +44,19 @@ function SummaryComponent() {
         </div>
 
         <div className={style.coding_container}>
-          <h2>Coding</h2>
-          {skills.skills.coding.map((skill: Skill) => (
+          <h2>Frontend</h2>
+          {skills.skills.frontend.map((skill: Skill) => (
+            <SkillButton
+              skill={skill.skill}
+              logo={skill.logo}
+              link={skill.link}
+            />
+          ))}
+        </div>
+
+        <div className={style.coding_container}>
+          <h2>Backend</h2>
+          {skills.skills.backend.map((skill: Skill) => (
             <SkillButton
               skill={skill.skill}
               logo={skill.logo}
