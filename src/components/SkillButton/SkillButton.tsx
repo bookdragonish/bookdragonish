@@ -5,7 +5,7 @@ import style from "./SkillButton.module.css"
 function SkillButton(skill: Skill){
     const alt = "logo of" + skill.skill
     return(
-        <a href={skill.link} className={style.button}>
+        <a href={skill.link} className={style.button} target="_blank">
             <img src={skill.logo} alt={alt} />
         </a>
     )

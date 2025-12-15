@@ -1,0 +1,19 @@
+.experience {
+  background-color: var(--main-color);
+  width: 80vw;
+  padding-bottom: 15px;
+}
+
+.experience_card_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .experience_card_container {
+    flex-direction: column;
+  }
+}

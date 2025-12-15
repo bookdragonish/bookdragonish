@@ -16,7 +16,7 @@ function SummaryComponent() {
           <li>Email: ingvild.sandven@gmail.com</li>
           <li>IP address: ...</li>
         </ul>
-        <SkillButton skill={"Linkdin"} logo={"/src/assets/icons/linkedin.svg"} link={"www.linkedin.com/in/ingvild-sandven-17a158289"} />
+        <SkillButton skill={"Linkdin"} logo={"/src/assets/icons/linkedin.svg"} link={"https://www.linkedin.com/in/ingvild-sandven-17a158289/"} />
         <SkillButton skill={"GitHub"} logo={"/src/assets/icons/github.svg"} link={"https://github.com/bookdragonish"} />
 
       </article>
