@@ -6,6 +6,7 @@ import style from "./HomePage.module.css";
 function HomePage() {
   return (
     <main>
+      <h1>Ingvild Kirkaune Sandven</h1>
       <SummaryComponent />
       <div className={style.overlay}>
         <ConstructionCompontent />

@@ -3,4 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--box-background);
+    padding-bottom: 10vh;
 }

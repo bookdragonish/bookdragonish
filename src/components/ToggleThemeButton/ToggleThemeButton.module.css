@@ -1,7 +1,7 @@
 .slider{
     height: 30px;
     width: 60px;
-    border: var(--element-color) 2px solid;
+    border: var(--main-color) 2px solid;
     border-radius: 15px;
     background-color: rgba(0,0,0,0);
 }
@@ -9,7 +9,7 @@
 .slider_ball{
     width: 20px;
     height: 20px;
-    background-color: var(--element-color);
+    background-color: var(--main-color);
     border-radius: 100%;
     display: block;
 }

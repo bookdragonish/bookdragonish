@@ -1,0 +1,36 @@
+.summary_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 2vw;
+}
+
+.personal_info_container {
+    min-width: 250px;
+}
+
+.selfie_img {
+  width: 100%;
+}
+
+.icons_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.icons_container h3 {
+    background-color: var(--main-color);
+    margin: 1vw;
+}
+
+.coding_container,
+.backend_container {
+    grid-column: span 2;
+}
+
+@media (max-width: 600px) {
+  .summary_container {
+    flex-direction: column;
+  }
+}
