@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  margin: 2vw;
+  gap: 2vw;
+  margin: 3vw;
 }
 
 .personal_info_container {
@@ -16,12 +16,24 @@
 
 .icons_container {
   display: grid;
+  column-gap: 2vh;
+  row-gap: 3vh;
   grid-template-columns: repeat(2, 1fr);
 }
 
+.icons_container div{
+  border: 2px var(--main-color) solid;
+  border-radius: 15px;
+  position: relative;
+  padding-block: 3vh;
+}
+
 .icons_container h3 {
-    background-color: var(--main-color);
-    margin: 1vw;
+    position: absolute;
+    top: -4vh;
+    left: 70px;
+    padding-inline: 1vw;
+    background-color: var(--background-color);
 }
 
 .coding_container,

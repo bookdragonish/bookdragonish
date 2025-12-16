@@ -16,10 +16,10 @@ function SummaryComponent() {
         <SomeContainer />
       </article>
       <article className={style.skill_container}>
-        {" "}
         {/*TODO: Remove this box*/}
         <div className={style.icons_container}>
-          <div className={style.design_container}>
+         
+          <div className={style.design_container}> 
             <h3>Design</h3>
             {skills.skills.design.map((skill: Skill) => (
               <SkillButton
@@ -27,7 +27,7 @@ function SummaryComponent() {
                 logo={skill.logo}
                 link={skill.link}
               />
-            ))}{" "}
+            ))}
           </div>
 
           <div className={style.test_container}>
