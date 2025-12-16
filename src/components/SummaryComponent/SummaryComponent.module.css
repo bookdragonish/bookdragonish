@@ -19,6 +19,7 @@
   column-gap: 2vh;
   row-gap: 3vh;
   grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 30px;
 }
 
 .icons_container div{
@@ -31,7 +32,7 @@
 .icons_container h3 {
     position: absolute;
     top: -4vh;
-    left: 70px;
+    left: 20px;
     padding-inline: 1vw;
     background-color: var(--background-color);
 }
