@@ -81,9 +81,117 @@
       }
     },
 
+    "cv_screening_tool": {
+      "title": "CV screening tool",
+      "github": "https://github.com/ingvildsandven/cv-screening-tool",
+      "hosted": "",
+      "image": "https://i.postimg.cc/XYxMb7TX/Home-Page.png",
+      "shortDescription": "CV-screening tool for Trondheim Kommune",
+      "startDate": "01-01-2026",
+      "endDate": "08-06-2026",
+      "collaborators": [
+        {
+          "name": "Markus Watle",
+          "email": "markus.wathle@gmail.com",
+          "github": "https://github.com/markuswathle"
+        },
+        {
+          "name": "Helene Kolderup Selvig",
+          "email": "helenekselvig@gmail.com",
+          "github": "https://github.com/HeleneSelvig"
+        },
+        {
+          "name": "Marius Brun",
+          "email": "mariusaleksanderbrun@icloud.com",
+          "github": "https://github.com/mariusAB"
+        },
+        {
+          "name": "Mohammad Kazem Khajeh",
+          "email": "Kazem_kh95@hotmail.com",
+          "github": "https://github.com/MoaKK"
+        },
+        {
+          "name": "Baris Batur",
+          "email": "",
+          "github": "https://github.com/Cryonato"
+        }
+      ],
+      "longDescription": {
+        "intro": "This was the Bachelor project for my degree in informatics. The course focuses on gaining practical experience collaborating within larger developing groups and delivering a software product for real world customers. Our customer was Trondheim kommune, specifically their Human Resources (HR) department, where we were creating a CV scanner. \n The development team consisted of 7 students, each contributing approximately 15 hours per week. The project spanned from mid-January to early May 2026, giving the team just over three months of active development.",
+        "motivation": "When a department within Trondheim kommune is reorganized or shut down, some of the affected employees are classified as redundant. Being classified as redundant means that after a predefined time period, their position will be removed, and the employee may face termination. According to the Norwegian Work Environment Act (Arbeidsmiljøloven § 15-7), redundant employees must be considered for other available positions within Trondheim kommune before those positions are advertised externally. HR advisors are responsible for managing this internal matching process, manually reviewing employee CVs against job posts to assess suitability. \n\n With approximately 50 redundant employees registered at any given time and roughly 2,000 job positions published annually, this is a time-consuming and resource-intensive process. Each redundant employee has a 90-day window in which a suitable position must be found, putting pressure on HR to act quickly while still being thorough. Furthermore, municipal policy dictates that a job position cannot be published externally until all redundant employees have been evaluated against it. The manual nature of this process means that positions that cannot be filled internally may take longer than necessary to be published externally, and the risk of overlooking qualified candidates is real. The challenge is therefore to make the initial screening of candidates faster, more consistent, and better documented, without compromising the quality or fairness of the assessment. \n\n The goal of this project was to develop a web-based AI tool that assists HR advisors in the internal matching of redundant employees to available positions. ",
+        "process": "A large part of the project was investigating which AI model would be most suitable for the CV Screening Tool. The customer requested that NorLLM should be considered because it is developed in Norway and trained on Norwegian language data. This made it especially relevant as the system intended to process Norwegian CVs and job posts. To provide a meaningful comparison, the team also evaluated Gemini, as it is a widely used model with strong documentation, API support, and existing familiarity within the team. Trondheim kommune also had existing arrangements with Google that would make implementing Gemini faster. \n\n",
+        "futureAdditions": [
+          "Host the page on a public accessible domain",
+          "Host the server",
+          "Update the search resolver",
+          "Will possibly add more functionality"
+        ],
+        "technologyHighlights": [
+          {
+            "skill": "React",
+            "logo": "/icons/react.svg",
+            "link": "https://react.dev/"
+          },
+
+          {
+            "skill": "Typescript",
+            "logo": "/icons/typescript.svg",
+            "link": "https://www.typescriptlang.org/"
+          },
+          {
+            "skill": "Playwright",
+            "logo": "/icons/playwright.svg",
+            "link": "https://playwright.dev/"
+          },
+          {
+            "skill": "Vitest",
+            "logo": "/icons/vite.svg",
+            "link": "https://vitest.dev/"
+          },
+          {
+            "skill": "Tailwind",
+            "logo": "/icons/tailwind-css.svg",
+            "link": "https://tailwindcss.com/"
+          },
+          {
+            "skill": "PostgreSQL",
+            "logo": "/icons/PostgreSQL.svg",
+            "link": "https://www.postgresql.org/"
+          },
+          {
+            "skill": "Node JS",
+            "logo": "/icons/nodejs.svg",
+            "link": "https://nodejs.org/en"
+          },
+          {
+            "skill": "Express",
+            "logo": "/icons/expressjs.webp",
+            "link": "https://expressjs.com/"
+          }
+        ],
+        "highlights": [
+          "Backend implemented",
+          "Caching using redis is implemented",
+          "Extensive testing: end to end, component and snapshot tests"
+        ],
+        "imagesFolder": "",
+        "images": [          
+          {
+            "image": "https://i.postimg.cc/MpwcdhJm/results-Page.png",
+            "alt": "Screenshot image result page",
+            "span": 6
+          },
+          {
+            "image": "https://i.postimg.cc/bwPG3KfQ/comparison-gemini-norllm.png",
+            "alt": "Findings of gemini and norllm comparison",
+            "span": 6
+          }]
+      }
+    },
+
     "letthemcook": {
       "title": "LetThemCook",
-      "github": "https://github.com/bookdragonish/letthemcook",
+      "github": "https://github.com/ingvildsandven/letthemcook",
       "hosted": "http://it2810-02.idi.ntnu.no/project2/",
       "image": "https://i.postimg.cc/VLs3gmcy/let_Them_Cook_frontpage.webp",
       "shortDescription": "React and MongoDB group project",
@@ -155,7 +263,7 @@
 
     "diagnosefellen": {
       "title": "Diagnosefellen",
-      "github": "https://github.com/bookdragonish/diagnosefellen/",
+      "github": "https://github.com/ingvildsandven/diagnosefellen/",
       "hosted": "",
       "image": "https://i.postimg.cc/L8zBZMgd/book.webp",
       "shortDescription": "Site for Henriette Sandven",
@@ -221,96 +329,55 @@
         ]
       }
     },
-
-    "bachelor": {
-      "title": "Bachelor",
-      "github": "https://github.com/bookdragonish/cv-screening-tool",
+    "social_minds": {
+      "title": "Social Minds",
+      "github": "https://github.com/bookdragonish/shoppinglist",
       "hosted": "",
-      "image": "https://www.trondheim.kommune.no/globalassets/10-bilder-og-filer/09-finans/trondheim-digital/aeoupxbe3-u.jpg?mode=crop&scale=both&quality=80&format=webp&width=1024&height=555",
-      "shortDescription": "Scanning tool for Trondheim Digital",
-      "startDate": "2026-01-04",
+      "image": "https://private-user-images.githubusercontent.com/70192385/526532905-0f84c642-217e-4be2-b4d9-9bfd56091336.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU3OTg2MjEsIm5iZiI6MTc2NTc5ODMyMSwicGF0aCI6Ii83MDE5MjM4NS81MjY1MzI5MDUtMGY4NGM2NDItMjE3ZS00YmUyLWI0ZDktOWJmZDU2MDkxMzM2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjE1VDExMzIwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlMWQxZTA4MjQ1YjQ4N2FlNzA0MmRlMDZhYTIyMzdmNDE0YTAwOWIwNDk3NjYwNzU4NGYxOGRmMTA5M2U3OTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.K6arBrd9GYoVHaAtdLJl9kBJ0Bm1nAWFEHym605Pv9M",
+      "shortDescription": "A way to avoid buying too much milk",
+      "startDate": "2025-10-28",
       "endDate": "",
-      "collaborators": [
-        {
-          "name": "Markus Watle",
-          "email": "markus.wathle@gmail.com",
-          "github": "https://github.com/gegiske"
-        },
-        {
-          "name": "Helene Selvig",
-          "email": "helenkse@stud.ntnu.no",
-          "github": "https://github.com/HeleneSelvig"
-        },
-        {
-          "name": "Marius Brun",
-          "email": "mariuabr@stud.ntnu.no",
-          "github": "https://github.com/mariusAB"
-        },
-        {
-          "name": "Marius Fornes",
-          "email": "mariufor@stud.ntnu.no",
-          "github": "https://github.com/mariusfornes"
-        },
-        {
-          "name": "Kazem Moa Khajeh",
-          "email": "mohammkk@stud.ntnu.no",
-          "github": "https://github.com/MoaKK"
-        },
-        {
-          "name": "Baris Bartur",
-          "email": "barisb@stud.ntnu.no",
-          "github": "https://github.com/Cryonato"
-        }
-      ],
+      "collaborators": [],
       "longDescription": {
-        "intro": "The project is meant to be a proof-of-concept and could be worked on further by Trondheim kommune if proven effective. Our project scope is to create a tool that can sort through a large amount of CV’s at the same time, and compare them to a given job listing before sorting the relevant candidates in a list.",
-        "motivation": "The task we were given by the Trondheim Kommune was to create a CV pre-screening application using artificial intelligence to help the HR department with adhering to the principle of qualification in an effective manner. Its purpose is to shorten the time spent sorting through applicant CV’s to find which applicants fulfill the requirements for a given job posting.",
-        "process": "At the moment we are deciding on the technology and the AI models to use. Our client wants us to try out different AI models to see which one suits our purpouse the best. We are currently setting up Gemeni and NorLLM to compare runtime and results. We are also researching tools that Trondheim Kommune is using to better intergate these with our application. Our hope here is that less work for the Client to research new systems will lead to higher probability of the application being taken to production stage. The systems most relevant to us is Webcruiter and Google Cloud. We decided to use PostgreSQL as database so it can be hosted on Google Cloud, and we are researching if Webcruiter could be a good way to collect CVs. \n\n Our group consists of 7 informatics students. We have meetings three times a week and workshops twice a week, the weekly workload being about 15-20 hours. We are using agile collaboration methods such as Daily Standups, Retrospectives and Kanban boards. See github for updated info.",
-        "futureAdditions": [
-          "Compare AI modules to see which analyzes the CVs the best according to each application",
-          "Host database on Google Cloud",
-          "Check out getting CVs from Webcruiter, the tool that Trondheim Kommune uses for applications",
-          "Create a Minimal Viable Product (MVP)"
-        ],
+        "intro": "This is supposed to be a regular shopping list where multiple users can sync their needs together so that it is easier to shop and not get multiple items of the same product.",
+        "motivation": "My partner and I have this shoppinglist on our counter that contains what we need. After we returned home one day, we found we both had been to the store without talking to the other and bought Milk. My partner is Lactose intolerant, so we get different Milk, and ended up having 4 * 1.75L Milk. This was simply too much milk, and it gave me the idea to create a synched shopping list for us. Well I know others have made this before...but what is the fun in using other peoples work?",
+        "process": "This idea was born on a workshop event that I attended created by Bekk",
+        "futureAdditions": ["Mobile version", "database sync"],
         "technologyHighlights": [
           {
             "skill": "React",
-            "logo": "/icons/react.svg",
+            "logo": "/src/assets/icons/react.svg",
             "link": "https://react.dev/"
-          },
-          {
-            "skill": "Vitest",
-            "logo": "/icons/vite.svg",
-            "link": "https://vitest.dev/"
-          },
-          {
-            "skill": "Typescript",
-            "logo": "/icons/typescript.svg",
-            "link": "https://www.typescriptlang.org/"
-          },
-          {
-            "skill": "Node JS",
-            "logo": "/icons/nodejs.svg",
-            "link": "https://nodejs.org/en"
-          },
-          {
-            "skill": "Express",
-            "logo": "/icons/expressjs.webp",
-            "link": "https://expressjs.com/"
-          },
-          {
-            "skill": "PostgreSQL",
-            "logo": "/icons/PostgreSQL.svg",
-            "link": "https://www.postgresql.org/"
           }
         ],
-        "highlights": [
-          "AI models: NorLLM and Gemini",
-          "Real project with real client",
-          "Group project",
-          "Backend with PostgreSQL"
+        "highlights": ["Very cool 1", "Yess"],
+        "imagesFolder": "helenevolle/",
+        "images": []
+      }
+    },
+    "MIA": {
+      "title": "MIA",
+      "github": "https://github.com/bookdragonish/shoppinglist",
+      "hosted": "",
+      "image": "https://private-user-images.githubusercontent.com/70192385/526532905-0f84c642-217e-4be2-b4d9-9bfd56091336.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjU3OTg2MjEsIm5iZiI6MTc2NTc5ODMyMSwicGF0aCI6Ii83MDE5MjM4NS81MjY1MzI5MDUtMGY4NGM2NDItMjE3ZS00YmUyLWI0ZDktOWJmZDU2MDkxMzM2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjE1VDExMzIwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlMWQxZTA4MjQ1YjQ4N2FlNzA0MmRlMDZhYTIyMzdmNDE0YTAwOWIwNDk3NjYwNzU4NGYxOGRmMTA5M2U3OTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.K6arBrd9GYoVHaAtdLJl9kBJ0Bm1nAWFEHym605Pv9M",
+      "shortDescription": "A way to avoid buying too much milk",
+      "startDate": "2025-10-28",
+      "endDate": "",
+      "collaborators": [],
+      "longDescription": {
+        "intro": "This is supposed to be a regular shopping list where multiple users can sync their needs together so that it is easier to shop and not get multiple items of the same product.",
+        "motivation": "My partner and I have this shoppinglist on our counter that contains what we need. After we returned home one day, we found we both had been to the store without talking to the other and bought Milk. My partner is Lactose intolerant, so we get different Milk, and ended up having 4 * 1.75L Milk. This was simply too much milk, and it gave me the idea to create a synched shopping list for us. Well I know others have made this before...but what is the fun in using other peoples work?",
+        "process": "This idea was born on a workshop event that I attended created by Bekk",
+        "futureAdditions": ["Mobile version", "database sync"],
+        "technologyHighlights": [
+          {
+            "skill": "React",
+            "logo": "/src/assets/icons/react.svg",
+            "link": "https://react.dev/"
+          }
         ],
-        "imagesFolder": "",
+        "highlights": ["Very cool 1", "Yess"],
+        "imagesFolder": "helenevolle/",
         "images": []
       }
     }

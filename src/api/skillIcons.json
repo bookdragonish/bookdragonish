@@ -61,6 +61,11 @@
         "link": "https://nextjs.org/"
       },
       {
+        "skill": "Tailwind",
+        "logo": "/icons/tailwind-css.svg",
+        "link": "https://tailwindcss.com/"
+      },
+      {
         "skill": "Typescript",
         "logo": "/icons/typescript.svg",
         "link": "https://www.typescriptlang.org/"
