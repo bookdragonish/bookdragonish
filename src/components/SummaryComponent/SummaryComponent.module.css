@@ -1,3 +1,4 @@
+/*Left side*/
 .summary_container {
   display: flex;
   align-items: center;
@@ -18,7 +19,8 @@
   border-radius: 15px;
 }
 
-.icons_container {
+/*Right side*/
+.skill_container {
   display: grid;
   column-gap: 2vh;
   row-gap: 3vh;
@@ -27,14 +29,18 @@
   max-width: 750px;
 }
 
-.icons_container div{
+.skill_container div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   border: 2px var(--main-color) solid;
   border-radius: 15px;
   position: relative;
-  padding-block: 3vh;
+  padding-block: 2vh;
 }
 
-.icons_container h2 {
+.skill_container h2 {
     font-size: 1.1rem;
     font-weight: 400;
     letter-spacing: 3px;
@@ -45,8 +51,7 @@
     background-color: var(--background-color);
 }
 
-.coding_container,
-.backend_container {
+.large_container {
     grid-column: span 2;
 }
 
@@ -54,7 +59,7 @@
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 730px) {
   .summary_container {
     flex-direction: column;
   }

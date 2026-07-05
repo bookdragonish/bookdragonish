@@ -10,7 +10,7 @@ function SomeContainer() {
         link={"mailto:ingvild.sandven@gmail.com"}
       />
       <SkillButton
-        skill={"Linkdin"}
+        skill={"LinkdIn"}
         logo={"/icons/linkedin.svg"}
         link={"https://www.linkedin.com/in/ingvild-sandven-17a158289/"}
       />

@@ -23,7 +23,7 @@
   background-color: var(--box-background);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 730px) {
 .summary_container {
     position: static;
 }

@@ -4,14 +4,17 @@ import style from "./SkillButton.module.css";
 function SkillButton(skill: Skill) {
   const alt = "logo of " + skill.skill;
   return (
-    <a
-      href={skill.link}
-      className={style.button}
-      target="_blank"
-      rel="noopener noreffer"
-    >
-      <img src={skill.logo} alt={alt} />
-    </a>
+    <span className={style.logo}>
+      <a
+        href={skill.link}
+        className={style.button}
+        target="_blank"
+        rel="noopener noreffer"
+      >
+        <img src={skill.logo} alt={alt} />
+        <p>{skill.skill}</p>
+      </a>
+    </span>
   );
 }
 export default SkillButton;

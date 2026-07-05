@@ -2,6 +2,32 @@
   max-width: 1200px;
 }
 
+/*nav*/
+.nav {
+  width: 102%;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+.link p {
+  margin: 0;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
 .link{
   font-size: 1.2rem;
 }
