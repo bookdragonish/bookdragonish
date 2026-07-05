@@ -56,6 +56,11 @@
         "link": "https://react.dev/"
       },
       {
+        "skill": "React Native",
+        "logo": "/icons/reactnative-wordmark.svg",
+        "link": "https://react.dev/"
+      },
+      {
         "skill": "Next.js",
         "logo": "/icons/Next.js.svg",
         "link": "https://nextjs.org/"
@@ -79,6 +84,11 @@
         "skill": "GraphQL",
         "logo": "/icons/GraphQL.svg",
         "link": "https://graphql.org/"
+      },
+      {
+        "skill": "Flutter",
+        "logo": "/icons/flutter.svg",
+        "link": "https://flutter.dev/"
       }
     ],
     "backend": [
@@ -136,6 +146,16 @@
         "skill": "PostgreSQL",
         "logo": "/icons/PostgreSQL.svg",
         "link": "https://www.postgresql.org/"
+      },
+      {
+        "skill": "Supabase",
+        "logo": "/icons/supabase.svg",
+        "link": "https://supabase.com/"
+      },
+      {
+        "skill": "Resend",
+        "logo": "/icons/resend.svg",
+        "link": "https://resend.com"
       }
     ]
   }
