@@ -13,7 +13,7 @@ function ExperienceComponent() {
           page_link="/experience/Graphcore"
         />
         <ExperienceCard
-          img_link="https://i.postimg.cc/Pxxsf2Lm/online_dark.png"
+          img_link="https://i.postimg.cc/Pxxsf2Lm/online-dark.png"
           page_link="/experience/Online"
           alt="Online logo"
           title="Online"

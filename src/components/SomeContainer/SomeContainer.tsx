@@ -17,7 +17,7 @@ function SomeContainer() {
       <SkillButton
         skill={"GitHub"}
         logo={"/icons/github.svg"}
-        link={"https://github.com/bookdragonish"}
+        link={"https://github.com/ingvildsandven"}
       />
     </div>
   );
