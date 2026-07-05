@@ -20,9 +20,11 @@ function SummaryComponent() {
       <article className={style.skill_container}>
         {/*TODO: Remove this box*/}
         <div className={style.icons_container}>
-          <div className={style.design_container}>
-            <h2>Planning</h2>
-            {skills.skills.planning.map((skill: Skill) => (
+        
+
+          <div className={style.test_container}>
+            <h2>Frontend</h2>
+            {skills.skills.frontend.map((skill: Skill) => (
               <SkillButton
                 key={skill.skill}
                 skill={skill.skill}
@@ -44,9 +46,9 @@ function SummaryComponent() {
             ))}
           </div>
 
-          <div className={style.coding_container}>
-            <h2>Frontend</h2>
-            {skills.skills.frontend.map((skill: Skill) => (
+            <div className={style.design_container}>
+            <h2>Tools</h2>
+            {skills.skills.tools.map((skill: Skill) => (
               <SkillButton
                 key={skill.skill}
                 skill={skill.skill}
@@ -56,9 +58,33 @@ function SummaryComponent() {
             ))}
           </div>
 
-          <div className={style.backend_container}>
+          <div className={style.test_container}>
             <h2>Backend</h2>
             {skills.skills.backend.map((skill: Skill) => (
+              <SkillButton
+                key={skill.skill}
+                skill={skill.skill}
+                logo={skill.logo}
+                link={skill.link}
+              />
+            ))}
+          </div>
+
+          <div className={style.coding_container}>
+            <h2>Databases</h2>
+            {skills.skills.databases.map((skill: Skill) => (
+              <SkillButton
+                key={skill.skill}
+                skill={skill.skill}
+                logo={skill.logo}
+                link={skill.link}
+              />
+            ))}
+          </div>
+
+          <div className={style.coding_container}>
+            <h2>Languages</h2>
+            {skills.skills.languages.map((skill: Skill) => (
               <SkillButton
                 key={skill.skill}
                 skill={skill.skill}

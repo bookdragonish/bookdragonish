@@ -24,6 +24,7 @@
   row-gap: 3vh;
   grid-template-columns: repeat(2, 1fr);
   padding-bottom: 30px;
+  max-width: 750px;
 }
 
 .icons_container div{

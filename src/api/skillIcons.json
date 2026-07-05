@@ -1,15 +1,20 @@
 {
   "skills": {
-    "planning": [
+    "tools": [
       {
         "skill": "Figma",
         "logo": "/icons/figma.svg",
         "link": "https://www.figma.com/"
       },
       {
-        "skill": "Postman",
-        "logo": "/icons/postman.svg",
-        "link": "https://www.postman.com/"
+        "skill": "Resend",
+        "logo": "/icons/resend.svg",
+        "link": "https://resend.com"
+      },
+      {
+        "skill": "Jupiter",
+        "logo": "/icons/Jupyter.svg",
+        "link": "https://jupyter.org/"
       }
     ],
     "testing": [
@@ -32,105 +37,23 @@
         "skill": "Vitest",
         "logo": "/icons/vite.svg",
         "link": "https://vitest.dev/"
+      },
+      {
+        "skill": "Postman",
+        "logo": "/icons/postman.svg",
+        "link": "https://www.postman.com/"
       }
     ],
-    "frontend": [
-      {
-        "skill": "HTML5",
-        "logo": "/icons/html5.svg",
-        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
-      },
-      {
-        "skill": "CSS3",
-        "logo": "/icons/css3.svg",
-        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
-      },
-      {
-        "skill": "Javascript",
-        "logo": "/icons/javascript.svg",
-        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-      },
-      {
-        "skill": "React",
-        "logo": "/icons/react.svg",
-        "link": "https://react.dev/"
-      },
-      {
-        "skill": "React Native",
-        "logo": "/icons/reactnative-wordmark.svg",
-        "link": "https://react.dev/"
-      },
-      {
-        "skill": "Next.js",
-        "logo": "/icons/Next.js.svg",
-        "link": "https://nextjs.org/"
-      },
-      {
-        "skill": "Tailwind",
-        "logo": "/icons/tailwind-css.svg",
-        "link": "https://tailwindcss.com/"
-      },
+    "languages": [
       {
         "skill": "Typescript",
         "logo": "/icons/typescript.svg",
         "link": "https://www.typescriptlang.org/"
       },
       {
-        "skill": "Redux",
-        "logo": "/icons/Redux.svg",
-        "link": "https://redux.js.org/"
-      },
-      {
-        "skill": "GraphQL",
-        "logo": "/icons/GraphQL.svg",
-        "link": "https://graphql.org/"
-      },
-      {
-        "skill": "Flutter",
-        "logo": "/icons/flutter.svg",
-        "link": "https://flutter.dev/"
-      }
-    ],
-    "backend": [
-      {
-        "skill": "Redis",
-        "logo": "/icons/Redis.svg",
-        "link": "https://redis.io/"
-      },
-      {
-        "skill": "Spring",
-        "logo": "/icons/Spring.svg",
-        "link": "https://spring.io/"
-      },
-      {
-        "skill": "MongoDB",
-        "logo": "/icons/MongoDB.svg",
-        "link": "https://www.mongodb.com/"
-      },
-      {
-        "skill": "Firebase",
-        "logo": "/icons/Firebase.svg",
-        "link": "https://firebase.google.com/"
-      },
-      {
-        "skill": "SQLite",
-        "logo": "/icons/SQLite.svg",
-        "link": "https://sqlite.org/"
-      },
-      {
-        "skill": "Node JS",
-        "logo": "/icons/nodejs.svg",
-        "link": "https://nodejs.org/en"
-      },
-      {
-        "skill": "Express",
-        "logo": "/icons/expressjs.webp",
-        "link": "https://expressjs.com/"
-      },
-      {
-        "skill": "Jupiter",
-        "logo": "/icons/Jupyter.svg",
-        "link": "https://jupyter.org/"
+        "skill": "Javascript",
+        "logo": "/icons/javascript.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       },
       {
         "skill": "Python",
@@ -143,9 +66,90 @@
         "link": "https://www.java.com/en/"
       },
       {
+        "skill": "HTML5",
+        "logo": "/icons/html5.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      },
+      {
+        "skill": "CSS3",
+        "logo": "/icons/css3.svg",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      }
+    ],
+    "frontend": [
+      {
+        "skill": "React",
+        "logo": "/icons/react.svg",
+        "link": "https://react.dev/"
+      },
+      {
+        "skill": "Next.js",
+        "logo": "/icons/Next.js.svg",
+        "link": "https://nextjs.org/"
+      },
+      {
+        "skill": "React Native",
+        "logo": "/icons/reactnative-wordmark.svg",
+        "link": "https://react.dev/"
+      },
+      {
+        "skill": "Flutter",
+        "logo": "/icons/flutter.svg",
+        "link": "https://flutter.dev/"
+      },
+      {
+        "skill": "Tailwind",
+        "logo": "/icons/tailwind-css.svg",
+        "link": "https://tailwindcss.com/"
+      },
+      {
+        "skill": "Redux",
+        "logo": "/icons/Redux.svg",
+        "link": "https://redux.js.org/"
+      },
+      {
+        "skill": "GraphQL",
+        "logo": "/icons/GraphQL.svg",
+        "link": "https://graphql.org/"
+      }
+    ],
+    "backend": [
+      {
+        "skill": "Spring",
+        "logo": "/icons/Spring.svg",
+        "link": "https://spring.io/"
+      },
+      {
+        "skill": "Node JS",
+        "logo": "/icons/nodejs.svg",
+        "link": "https://nodejs.org/en"
+      },
+      {
+        "skill": "Express",
+        "logo": "/icons/expressjs.webp",
+        "link": "https://expressjs.com/"
+      }
+    ],
+    "databases": [
+      {
         "skill": "PostgreSQL",
         "logo": "/icons/PostgreSQL.svg",
         "link": "https://www.postgresql.org/"
+      },
+      {
+        "skill": "MongoDB",
+        "logo": "/icons/MongoDB.svg",
+        "link": "https://www.mongodb.com/"
+      },
+      {
+        "skill": "SQLite",
+        "logo": "/icons/SQLite.svg",
+        "link": "https://sqlite.org/"
+      },
+      {
+        "skill": "Firebase",
+        "logo": "/icons/Firebase.svg",
+        "link": "https://firebase.google.com/"
       },
       {
         "skill": "Supabase",
@@ -153,9 +157,9 @@
         "link": "https://supabase.com/"
       },
       {
-        "skill": "Resend",
-        "logo": "/icons/resend.svg",
-        "link": "https://resend.com"
+        "skill": "Redis",
+        "logo": "/icons/Redis.svg",
+        "link": "https://redis.io/"
       }
     ]
   }
