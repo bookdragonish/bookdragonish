@@ -53,11 +53,21 @@ main {
  margin-right: 10px;
 }
 
+.collaborators_article{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
 .collaborators_article article{
   border: 2px solid var(--main-color);
   border-radius: 15px;
   position: relative;
   padding-block: 10px;
+  min-width: 190px;
 }
 
 .collaborators_article article h4{
@@ -65,7 +75,7 @@ main {
   background-color: var(--background-color);
   top: -30px;
   left: 15px;
-  padding-inline: 10px;
+  padding-inline: 5px;
 }
 
 .h3 {
@@ -122,5 +132,11 @@ main {
   .description {
     width: 95%;
     margin: 0 auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .collaborators_article{
+    width: 40vw;
   }
 }

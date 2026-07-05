@@ -81,6 +81,116 @@
       }
     },
 
+    "cv_screening_tool": {
+      "title": "CV screening tool",
+      "github": "https://github.com/ingvildsandven/cv-screening-tool",
+      "hosted": "",
+      "image": "https://i.postimg.cc/XYxMb7TX/Home-Page.png",
+      "shortDescription": "CV-screening tool for Trondheim Kommune",
+      "startDate": "01-01-2026",
+      "endDate": "08-06-2026",
+      "collaborators": [
+        {
+          "name": "Markus Watle",
+          "email": "markus.wathle@gmail.com",
+          "github": "https://github.com/markuswathle"
+        },
+        {
+          "name": "Helene Kolderup Selvig",
+          "email": "helenekselvig@gmail.com",
+          "github": "https://github.com/HeleneSelvig"
+        },
+        {
+          "name": "Marius Brun",
+          "email": "mariusaleksanderbrun@icloud.com",
+          "github": "https://github.com/mariusAB"
+        },
+        {
+          "name": "Mohammad Kazem Khajeh",
+          "email": "Kazem_kh95@hotmail.com",
+          "github": "https://github.com/MoaKK"
+        },
+        {
+          "name": "Baris Batur",
+          "email": "",
+          "github": "https://github.com/Cryonato"
+        }
+      ],
+      "longDescription": {
+        "intro": "This was the Bachelor project for my degree in informatics. The course focuses on gaining practical experience collaborating within larger developing groups and delivering a software product for real world customers. Our customer was Trondheim kommune, specifically their Human Resources (HR) department, where we were creating a CV scanner. \n The development team consisted of 7 students, each contributing approximately 15 hours per week. The project spanned from mid-January to early May 2026, giving the team just over three months of active development.",
+        "motivation": "When a department within Trondheim kommune is reorganized or shut down, some of the affected employees are classified as redundant. Being classified as redundant means that after a predefined time period, their position will be removed, and the employee may face termination. According to the Norwegian Work Environment Act (Arbeidsmiljøloven § 15-7), redundant employees must be considered for other available positions within Trondheim kommune before those positions are advertised externally. HR advisors are responsible for managing this internal matching process, manually reviewing employee CVs against job posts to assess suitability. \n\n With approximately 50 redundant employees registered at any given time and roughly 2,000 job positions published annually, this is a time-consuming and resource-intensive process. Each redundant employee has a 90-day window in which a suitable position must be found, putting pressure on HR to act quickly while still being thorough. Furthermore, municipal policy dictates that a job position cannot be published externally until all redundant employees have been evaluated against it. The manual nature of this process means that positions that cannot be filled internally may take longer than necessary to be published externally, and the risk of overlooking qualified candidates is real. The challenge is therefore to make the initial screening of candidates faster, more consistent, and better documented, without compromising the quality or fairness of the assessment. \n\n The goal of this project was to develop a web-based AI tool that assists HR advisors in the internal matching of redundant employees to available positions. ",
+        "process": "A large part of the project was investigating which AI model would be most suitable for the CV Screening Tool. The customer requested that NorLLM should be considered because it is developed in Norway and trained on Norwegian language data. This made it especially relevant as the system intended to process Norwegian CVs and job posts. To provide a meaningful comparison, the team also evaluated Gemini, as it is a widely used model with strong documentation, API support, and existing familiarity within the team. Trondheim kommune also had existing arrangements with Google that would make implementing Gemini faster. \n\n Future development will be done by Trondheim Digital (The IT-department of Trondheim kommune).",
+        "futureAdditions": [
+          "Archiving of candidates and screenings",
+          "Authentication and role-based access control",
+          "Integration with Webcruiter",
+          "Prompt refinement"
+        ],
+        "technologyHighlights": [
+          {
+            "skill": "React",
+            "logo": "/icons/react.svg",
+            "link": "https://react.dev/"
+          },
+
+          {
+            "skill": "Typescript",
+            "logo": "/icons/typescript.svg",
+            "link": "https://www.typescriptlang.org/"
+          },
+          {
+            "skill": "Playwright",
+            "logo": "/icons/playwright.svg",
+            "link": "https://playwright.dev/"
+          },
+          {
+            "skill": "Vitest",
+            "logo": "/icons/vite.svg",
+            "link": "https://vitest.dev/"
+          },
+          {
+            "skill": "Tailwind",
+            "logo": "/icons/tailwind-css.svg",
+            "link": "https://tailwindcss.com/"
+          },
+          {
+            "skill": "PostgreSQL",
+            "logo": "/icons/PostgreSQL.svg",
+            "link": "https://www.postgresql.org/"
+          },
+          {
+            "skill": "Node JS",
+            "logo": "/icons/nodejs.svg",
+            "link": "https://nodejs.org/en"
+          },
+          {
+            "skill": "Express",
+            "logo": "/icons/expressjs.webp",
+            "link": "https://expressjs.com/"
+          }
+        ],
+        "highlights": [
+          "Bachelor project",
+          "Frontend and Backend implemented",
+          "Real Client: Trondheim Kommune",
+          "Developed in a team"
+        ],
+        "imagesFolder": "",
+        "images": [
+          {
+            "image": "https://i.postimg.cc/MpwcdhJm/results-Page.png",
+            "alt": "Screenshot image result page",
+            "span": 6
+          },
+          {
+            "image": "https://i.postimg.cc/bwPG3KfQ/comparison-gemini-norllm.png",
+            "alt": "Findings of gemini and norllm comparison",
+            "span": 6
+          }
+        ]
+      }
+    },
+
     "letthemcook": {
       "title": "LetThemCook",
       "github": "https://github.com/ingvildsandven/letthemcook",
@@ -165,7 +275,7 @@
       "longDescription": {
         "intro": "Henriette Sandven is a specialist in child and adolescent psychiatry, and in 2025 she published the book Diagnosefellen, which discusses how too many children today are being diagnosed and medicated unnecessarily. She has been particularly outspoken in the public ADHD debate, which has received significant attention in Norwegian media. With over 15 years of clinical experience, Henriette has developed a strong professional voice in her field — and, as her name suggests, I am also proud to be her daughter.",
         "motivation": "Since the publication of her book, Henriette has received numerous requests to participate in podcasts, lectures, interviews, articles, and other public appearances. In connection with these requests, she is often asked to provide written information about the topics she can speak about, her professional perspective, and relevant background material. At the same time, many people are unsure of her stance on certain issues and want an accessible source where her work and contributions are clearly presented. \n\n The motivation behind this project is therefore to develop a dedicated website that gathers and organizes her public content in one place. The site will function as a structured archive of relevant material, such as podcasts, lectures, interviews, articles, and other appearances making it easy to find, share, and keep updated over time. In addition, the website will include a booking/contact form, allowing event organizers and media outlets to reach Henriette directly by email for speaking engagements and collaborations.",
-        "process": "This is still a fresh project, however the domain diagnosefellen.no is bought and the form have the elements they need.",
+        "process": "This is still a fresh project, however the domain diagnosefellen.no is bought.",
         "futureAdditions": [
           "Admin site",
           "Mail setup",
@@ -195,9 +305,14 @@
             "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
           },
           {
-            "skill": "Firebase",
-            "logo": "/icons/Firebase.svg",
-            "link": "https://firebase.google.com/"
+            "skill": "Supabase",
+            "logo": "/icons/supabase.svg",
+            "link": "https://supabase.com/"
+          },
+          {
+            "skill": "Resend",
+            "logo": "/icons/resend.svg",
+            "link": "https://resend.com"
           }
         ],
         "highlights": ["Real project with real client"],
@@ -219,6 +334,74 @@
             "span": 2
           }
         ]
+      }
+    },
+    "social_minds": {
+      "title": "Social Minds",
+      "github": "",
+      "hosted": "https://oursocialminds.com/",
+      "image": "https://i.postimg.cc/ZRj8P4QY/somi.png",
+      "shortDescription": "A social media platform",
+      "startDate": "2026-06-01",
+      "endDate": "",
+      "collaborators": [],
+      "longDescription": {
+        "intro": "This startup company aims to create the social media platform designed so that you only spend a limited amount of time on the platform.",
+        "motivation": "From Social Minds websidte: Moderation on social media has long failed to protect us: From violence to misinformation and promotion of eating disorders. On Social Minds, protection is not an “add-on” - it’s our core. Plus, no AI generated content.",
+        "process": "\n\n So far we are a team of 6 that develop the solution to this. The codebase is private for now. See Social Minds website for more info.",
+        "futureAdditions": [""],
+        "technologyHighlights": [
+          {
+            "skill": "Flutter",
+            "logo": "/icons/flutter.svg",
+            "link": "https://flutter.dev/"
+          }
+        ],
+        "highlights": ["Startup company", "Team development"],
+        "imagesFolder": "",
+        "images": []
+      }
+    },
+    "mia": {
+      "title": "MIA",
+      "github": "https://github.com/markuswathle/MIA",
+      "hosted": "",
+      "image": "",
+      "shortDescription": "",
+      "startDate": "2026-06-03",
+      "endDate": "",
+      "collaborators": [
+        {
+          "name": "Markus Watle",
+          "email": "markus.wathle@gmail.com",
+          "github": "https://github.com/markuswathle"
+        },
+        {
+          "name": "Aurora Karlsen",
+          "email": "Meilian2001@live.no",
+          "github": "https://github.com/AuroraMeilianKarlsen"
+        }
+      ],
+      "longDescription": {
+        "intro": "",
+        "motivation": "",
+        "process": "",
+        "futureAdditions": ["Mobile application", "database sync"],
+        "technologyHighlights": [
+          {
+            "skill": "React Native",
+            "logo": "/icons/reactnative-wordmark.svg",
+            "link": "https://react.dev/"
+          },
+          {
+            "skill": "Typescript",
+            "logo": "/icons/typescript.svg",
+            "link": "https://www.typescriptlang.org/"
+          }
+        ],
+        "highlights": ["Hobby project with friends"],
+        "imagesFolder": "",
+        "images": []
       }
     }
   }
