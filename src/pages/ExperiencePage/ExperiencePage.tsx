@@ -5,6 +5,7 @@ import ImageGrid from "../../components/ImageGrid/ImageGrid";
 import style from "./ExperiencePage.module.css";
 import ToTopButton from "../../components/ToTopButton/ToTopButton";
 import type { Experience } from "../../types/image";
+import { ChevronLeft } from "lucide-react";
 
 function ExperiencePage() {
   const { title } = useParams();
@@ -24,21 +25,24 @@ function ExperiencePage() {
 
   if (!data) {
     return (
-      <main>
-        {" "}
-        <Link to="/" className={style.link}>
-          Back
-        </Link>{" "}
-        <p>No experience with name {title} found.</p>
+      <main className={style.nav}>
+         <nav className={style.nav}>
+          <Link to="/" className={style.link}>
+            <ChevronLeft /> <p>Back</p>
+          </Link>
+        </nav>
+        <p>This project does not exist</p>
       </main>
     );
   }
 
   return (
     <main className={style.main}>
-      <Link to="/" className={style.link}>
-        Back
-      </Link>
+        <nav className={style.nav}>
+          <Link to="/" className={style.link}>
+            <ChevronLeft /> <p>Back</p>
+          </Link>
+        </nav>
 
       <ToTopButton />
 

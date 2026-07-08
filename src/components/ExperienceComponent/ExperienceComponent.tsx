@@ -5,6 +5,7 @@ function ExperienceComponent() {
   return (
     <section className={style.experience}>
       <h2 className={style.experience_title}>Experience</h2>
+      <p>Here you can find summaries on some of my relevant job and voluntary experiences.</p>
       <div className={style.experience_card_container}>
         <ExperienceCard
           img_link="https://i.postimg.cc/W473Bst9/graphcore.webp"

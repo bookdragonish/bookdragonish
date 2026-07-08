@@ -5,6 +5,7 @@ import { useEffect, useMemo } from "react";
 import SkillButton from "../../components/SkillButton/SkillButton";
 import ImageGrid from "../../components/ImageGrid/ImageGrid";
 import ToTopButton from "../../components/ToTopButton/ToTopButton";
+import { ChevronLeft } from "lucide-react";
 
 function ProjectPage() {
   const { title } = useParams();
@@ -23,9 +24,11 @@ function ProjectPage() {
   if (!projectData) {
     return (
       <main>
-        <Link to="/" className={style.link}>
-          Back
-        </Link>{" "}
+        <nav className={style.nav}>
+          <Link to="/" className={style.link}>
+            <ChevronLeft /> <p>Back</p>
+          </Link>
+        </nav>
         <p>This project does not exist</p>
       </main>
     );
@@ -33,18 +36,21 @@ function ProjectPage() {
 
   return (
     <main>
-      <Link to="/" className={style.link}>
-        Back
-      </Link>
+      <nav className={style.nav}>
+        <Link to="/" className={style.link}>
+          <ChevronLeft /> <p>Back</p>
+        </Link>
+      </nav>
 
       <ToTopButton />
 
       <h1>{projectData.title}</h1>
 
+      <span className={style.linking_background}></span>
       <section className={style.linking_container}>
         {projectData.hosted ? (
           <SkillButton
-            skill={"hosted"}
+            skill={"Link to Page"}
             logo={"/icons/link.svg"}
             link={projectData.hosted}
           />
@@ -57,6 +63,7 @@ function ProjectPage() {
           link={projectData.github}
         />{" "}
       </section>
+      <span className={style.linking_background}></span>
 
       <div className={style.section_container}>
         <img
@@ -70,16 +77,18 @@ function ProjectPage() {
           <article className={style.technology_article}>
             <h3 className={style.h3}>Technology</h3>
             <ul>
-              {projectData.longDescription.technologyHighlights.map((tech, idx) => {
-                return (
-                  <SkillButton
-                    skill={tech.skill}
-                    logo={tech.logo}
-                    link={tech.link}
-                    key={idx}
-                  />
-                );
-              })}
+              {projectData.longDescription.technologyHighlights.map(
+                (tech, idx) => {
+                  return (
+                    <SkillButton
+                      skill={tech.skill}
+                      logo={tech.logo}
+                      link={tech.link}
+                      key={idx}
+                    />
+                  );
+                },
+              )}
             </ul>
           </article>
           <article className={style.highlights_article}>
