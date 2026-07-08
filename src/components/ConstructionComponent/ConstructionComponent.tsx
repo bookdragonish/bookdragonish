@@ -9,6 +9,8 @@ function ConstructionCompontent() {
   return (
     <>
       <h2 className={style.construction_header}>Construction site</h2>
+      <p>These are all my hobby projects. Some are still in process of being developed!</p>
+      
       <section className={style.card_container}>
         {Object.values(data.projects).map((project: Project) => (
           <ConstructionCard
