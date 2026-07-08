@@ -4,7 +4,7 @@
 
 .summary_container {
   position: fixed;
-  top: 30px;
+  top: 0px;
   z-index: 1;
 }
 
@@ -23,8 +23,16 @@
   background-color: var(--box-background);
 }
 
+@media (min-width: 1000px) {
+  .summary_container {
+    top: 30px;
+}
+
+}
+
 @media (max-width: 730px) {
 .summary_container {
+    top: 30px;
     position: static;
 }
 
