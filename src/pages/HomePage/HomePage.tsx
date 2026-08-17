@@ -34,10 +34,7 @@ function HomePage() {
   }, []);
 
   return (
-    <main
-      className={style.homepage_main}
-      style={mainStyle}
-    >
+    <main className={style.homepage_main} style={mainStyle}>
       <div className={style.summary_container} ref={summaryRef}>
         <h1>Ingvild Kirkaune Sandven</h1>
         <SummaryComponent />

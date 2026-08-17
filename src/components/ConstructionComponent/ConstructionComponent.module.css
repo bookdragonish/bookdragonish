@@ -5,6 +5,9 @@
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+.construction_paragraph{
+    padding-inline: 4vw;
+}
 .card_container{
     display: flex;
     flex-wrap: wrap;

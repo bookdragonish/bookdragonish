@@ -1,7 +1,6 @@
 .experience {
   background-color: var(--main-color);
-  width: 90%;
-  max-width: 1100px;
+  width: 95%;
   padding-bottom: 7vh;
 }
 .experience_title {
@@ -15,7 +14,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 @media (max-width: 600px) {

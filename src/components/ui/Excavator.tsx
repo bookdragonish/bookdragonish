@@ -38,8 +38,14 @@ export default function Excavator({
     const applyPosition = () => {
       const scrollTop = window.scrollY;
 
-      const startScroll = 1000;
-      const endScroll = 2000;
+      const stageRect = stage.getBoundingClientRect();
+      const stageTop = stageRect.top + window.scrollY;
+
+      // Animation starts when the stage enters the viewport
+      const startScroll = stageTop - window.innerHeight;
+
+      // Animation ends when the stage reaches the top of the viewport
+      const endScroll = stageTop;
 
       const progress = Math.min(
         1,
@@ -52,13 +58,6 @@ export default function Excavator({
       const x = progress * maxTranslate;
 
       rig.style.transform = `translateX(${x}px)`;
-
-      console.log({
-        scrollTop,
-        progress,
-        stageWidth,
-        rigWidth,
-      });
     };
 
     const measure = () => {

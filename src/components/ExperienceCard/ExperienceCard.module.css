@@ -2,10 +2,10 @@
 .experience_card,
 .overlay,
 .title_container {
-  width: 30vw;
-  height: 30vw;
-  max-width: 400px;
-  max-height: 400px;
+  width: 40vw;
+  height: 40vw;
+  max-width: 500px;
+  max-height: 500px;
   min-width: 200px;
 }
 

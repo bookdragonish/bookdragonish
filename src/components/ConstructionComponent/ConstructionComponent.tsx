@@ -10,9 +10,8 @@ function ConstructionCompontent() {
   return (
     <>
       <h2 className={style.construction_header}>Construction site</h2>
-      <p>Welcome to the construction site!</p>
-      <p>
-        Here you'll find my hobby projects, some projects are finished, some are
+      <p className={style.construction_paragraph}>
+        This is the construction site! Here you'll find my hobby projects, some projects are finished, some are
         under construction, and some are still just blueprints.
       </p>
       <section className={style.card_container}>

@@ -6,6 +6,7 @@ import style from "./ExperiencePage.module.css";
 import ToTopButton from "../../components/ToTopButton/ToTopButton";
 import type { Experience } from "../../types/image";
 import { ChevronLeft } from "lucide-react";
+import Gears from "../../components/ui/Gears";
 
 function ExperiencePage() {
   const { title } = useParams();
@@ -26,7 +27,7 @@ function ExperiencePage() {
   if (!data) {
     return (
       <main className={style.nav}>
-         <nav className={style.nav}>
+        <nav className={style.nav}>
           <Link to="/" className={style.link}>
             <ChevronLeft /> <p>Back</p>
           </Link>
@@ -38,11 +39,11 @@ function ExperiencePage() {
 
   return (
     <main className={style.main}>
-        <nav className={style.nav}>
-          <Link to="/" className={style.link}>
-            <ChevronLeft /> <p>Back</p>
-          </Link>
-        </nav>
+      <nav className={style.nav}>
+        <Link to="/" className={style.link}>
+          <ChevronLeft /> <p>Back</p>
+        </Link>
+      </nav>
 
       <ToTopButton />
 
@@ -50,6 +51,9 @@ function ExperiencePage() {
         <h1>{data.title}</h1>
         <p>{data.description}</p>
       </section>
+      <div className={style.gear_container}>
+        <Gears />
+      </div>
       <ImageGrid images={data.images} folderTitle={""} />
     </main>
   );

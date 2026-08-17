@@ -28,7 +28,7 @@
   text-decoration: underline;
 }
 
-.link{
+.link {
   font-size: 1.2rem;
 }
 .link:hover {
@@ -42,6 +42,12 @@
 .info_container p {
   white-space: pre-wrap;
   line-height: 1.8;
+}
+
+.gear_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
