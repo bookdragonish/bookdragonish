@@ -16,9 +16,9 @@
         }
       ],
       "longDescription": {
-        "intro": "This website is a portfolio page created by my partner in crime and I for my friend and artist Helene Volle.",
-        "motivation": "My friend was in 2024 to apply to a master in a crossfield between art and biology in Italy. She started creating a website portfolio using a drag-and-drop system where she could display her art. While the design was good it was not how she visioned it, and during a visit she asked if I had knowledge on this field. I asked if my partner and I could code her website instead, and she agreed.",
-        "process": "This application had a timeframe, as Helene needed it finished in order to apply to the collage. This made us decide to use vanilla code as I was more familiar with this, not having learned react yet. In total we had a couple of weeks during summer vacation to finish the entire project. The minimum requirement from Helene was that she needed an overview of all her projects and an about her page. For each of her projects she needed to be able to display images of her art in a grid system. \n\n We prioritized the grid system for the images, as this was the main feature for the art page. Helene had created a color scheme, wireframe and a logo herself and voiced all of her thoughts about the project, and in the end it became as she envisioned. In the end we also added: (1) Posibility to see each image on a large screen when clicking on it (2) Navigationbuttons between these (3) Separation between smaller and larger projects (4) Saving files to firebase.\n\n The last addition to the page was the admin page. Due to security reasons this is not open to public, however I added screenshots from this bellow.",
+        "intro": "This website is an artist portfolio created by my partner in crime and me for our friend and artist, Helene Volle. The portfolio was built to showcase her artwork and projects while giving her a website that reflected her own visual style.",
+        "motivation": "In 2024, Helene was preparing to apply for a master's program in Italy combining the fields of art and biology. As part of her application, she needed a portfolio where she could present her work. \n\n She had started building a portfolio using a drag-and-drop website builder. Although she had created a design she liked, the available tools made it difficult to achieve exactly what she envisioned. During a visit, she asked whether I had experience with web development. My partner and I offered to build the website from scratch instead, and the project started from there.",
+        "process": "The project had a strict deadline, as Helene needed the portfolio for her master's application. We only had a couple of weeks during our summer break to complete it.\n\n At the time, I had not yet learned React and was more comfortable working with vanilla HTML, CSS, and JavaScript, so we chose to build the website using those technologies. The initial requirements were relatively simple: Helene needed an overview of her projects, an About page, and individual project pages where she could display her artwork in image grids. \n\n Since the artwork was the main focus of the portfolio, we prioritized creating a flexible grid system for displaying images. Helene had already developed her own color scheme, wireframes, and logo, and she was closely involved throughout the development process. This allowed us to adapt the website based on her feedback and create something that matched her original vision. \n\n As the project developed, we also added: A larger image view when clicking on individual artwork, Navigation between images, Different layouts for smaller and larger projects, Image and file storage using Firebase, A private admin page for managing portfolio content and The admin page is not publicly accessible for security reasons, but screenshots of its functionality can be found below.",
         "futureAdditions": [
           "Extended admin functionality: ability to change about-info"
         ],
@@ -45,7 +45,7 @@
           }
         ],
         "highlights": [
-          "Real project",
+          "Hosted project",
           "Use of firebase",
           "Created admin site",
           "Collaboration"
@@ -117,9 +117,9 @@
         }
       ],
       "longDescription": {
-        "intro": "This was the Bachelor project for my degree in informatics. The course focuses on gaining practical experience collaborating within larger developing groups and delivering a software product for real world customers. Our customer was Trondheim kommune, specifically their Human Resources (HR) department, where we were creating a CV scanner. \n The development team consisted of 7 students, each contributing approximately 15 hours per week. The project spanned from mid-January to early May 2026, giving the team just over three months of active development.",
-        "motivation": "When a department within Trondheim kommune is reorganized or shut down, some of the affected employees are classified as redundant. Being classified as redundant means that after a predefined time period, their position will be removed, and the employee may face termination. According to the Norwegian Work Environment Act (Arbeidsmiljøloven § 15-7), redundant employees must be considered for other available positions within Trondheim kommune before those positions are advertised externally. HR advisors are responsible for managing this internal matching process, manually reviewing employee CVs against job posts to assess suitability. \n\n With approximately 50 redundant employees registered at any given time and roughly 2,000 job positions published annually, this is a time-consuming and resource-intensive process. Each redundant employee has a 90-day window in which a suitable position must be found, putting pressure on HR to act quickly while still being thorough. Furthermore, municipal policy dictates that a job position cannot be published externally until all redundant employees have been evaluated against it. The manual nature of this process means that positions that cannot be filled internally may take longer than necessary to be published externally, and the risk of overlooking qualified candidates is real. The challenge is therefore to make the initial screening of candidates faster, more consistent, and better documented, without compromising the quality or fairness of the assessment. \n\n The goal of this project was to develop a web-based AI tool that assists HR advisors in the internal matching of redundant employees to available positions. ",
-        "process": "A large part of the project was investigating which AI model would be most suitable for the CV Screening Tool. The customer requested that NorLLM should be considered because it is developed in Norway and trained on Norwegian language data. This made it especially relevant as the system intended to process Norwegian CVs and job posts. To provide a meaningful comparison, the team also evaluated Gemini, as it is a widely used model with strong documentation, API support, and existing familiarity within the team. Trondheim kommune also had existing arrangements with Google that would make implementing Gemini faster. \n\n Future development will be done by Trondheim Digital (The IT-department of Trondheim kommune).",
+        "intro": "This was the Bachelor project for my degree in informatics. The focus is gaining practical experience collaborating within larger developing groups and delivering a software product for real world customers. Our customer was Trondheim kommune, specifically their Human Resources (HR) department, where we were creating a CV scanner. \n\n The development team consisted of 7 students, each contributing approximately 15 hours per week. The project spanned from mid-January to early May 2026, giving the team just over three months of active development.",
+        "motivation": "When a department within Trondheim kommune is reorganized or shut down, some of the affected employees are classified as redundant. Being classified as redundant means that after a predefined time period, their position will be removed, and the employee may face termination. According to the Norwegian Work Environment Act (Arbeidsmiljøloven § 15-7), redundant employees must be considered for other available positions within Trondheim kommune before those positions are advertised externally. HR advisors are responsible for managing this internal matching process, manually reviewing employee CVs against job posts to assess suitability.  The goal of this project was to develop a web-based AI tool that assists HR advisors in the internal matching of redundant employees to available positions.",
+        "process": "We developed a functional prototype capable of evaluating and matching candidates against job postings. A significant part of the project involved investigating which AI model would be most suitable for the CV Screening Tool. The customer specifically requested that NorLLM be considered, as it is developed in Norway and trained on Norwegian-language data. This made it particularly relevant for a system intended to process Norwegian CVs and job postings. To provide a meaningful comparison, we also evaluated Gemini. Gemini offered strong documentation and API support, and members of the team already had experience working with it. Trondheim Kommune also had existing agreements with Google, which could simplify a potential implementation. \n\n  To evaluate whether the AI produced useful candidate rankings, we collaborated with members of Trondheim Kommune's HR department. HR employees independently ranked a selection of candidates for a job posting, providing us with a human baseline against which we could compare the AI-generated results. The aim was not for the AI to reproduce the rankings exactly, but to determine whether its assessments were reasonably aligned with those of experienced HR personnel. Through extensive testing and comparison of the two models, we found that NorLLM would require further development and training to perform reliably for our specific use case, while Gemini produced more consistent results. \n\n Testing was not limited to the AI models. We conducted user testing with potential HR users and iterated on the interface based on their feedback. As Trondheim Kommune is a public-sector organization, accessibility and universal design were important requirements throughout the project. We therefore followed universal design principles and the Web Content Accessibility Guidelines (WCAG) referenced by the Norwegian Authority for Universal Design of ICT (UUtilsynet).\n\n The prototype and our findings were delivered to Trondheim Kommune. Future development and potential implementation of the system will be handled by Trondheim Digital, Trondheim Kommune's IT department.",
         "futureAdditions": [
           "Archiving of candidates and screenings",
           "Authentication and role-based access control",
@@ -171,9 +171,11 @@
         ],
         "highlights": [
           "Bachelor project",
+          "AI integration",
           "Frontend and Backend implemented",
           "Real Client: Trondheim Kommune",
-          "Developed in a team"
+          "Focus on universal design and accessibility testing",
+          "Testing: user-testing, unit and end-to-end, AI bias testing and Ground Truth Validation"
         ],
         "imagesFolder": "",
         "images": [
@@ -207,9 +209,9 @@
         }
       ],
       "longDescription": {
-        "intro": "This project was one of two projects in the course IT2810 Webutvikling. The hosted link is hidden for anyone without ntnu vpn.",
-        "motivation": "In our application the user can find food recipes. The user can select categories and the page will filter the displayed recipes based on this. Additionaly, the user can sort recipes alphabetically ascending or descending. It also has a randomizer button that takes the user to a random recipe, to give the user some inspiration as to what to cook. \n The application also has a search function, that searches based on the user's input in the search field. The search function has its own page, to separate it from other filters and sorting to make it look cleaner and easier to use. Sorting search results alphabetically or filtering based on category would not lead to the best results for the user, as they already get the most relevant data at the top from their search input. This would not be the case anymore after sorting or filtering.",
-        "process": "This project had approximatly a two month deadline, with four partial deliveries. The first was to finish a minimal vital product, second to have data connected to the page, third to have tests in order and fourth to fix all bugs. We used issues and kanban boards to structurate. \n\n Per now the website is not hosted publically, however this will be done in the future. Until then you can follow the installation guide on github, beware that the installation guide require you to setup mongo DB as this is also hosted on an NTNU server.",
+        "intro": "This project was one of two projects developed as part of IT2810 – Web Development at NTNU. The hosted version is currently only accessible through the NTNU network or VPN",
+        "motivation": "Our team developed a recipe application where users can browse recipes, filter by category, sort alphabetically, search for recipes, and use a randomizer for inspiration.",
+        "process": "The project was developed over approximately two months with four partial deliveries, covering the MVP, data integration, testing, and bug fixing. We used Git issues and Kanban boards to organize and distribute the work. \n\n A large part of my work focused on the frontend functionality. I worked on the recipe randomizer, allowing users to discover a random recipe for inspiration, as well as pagination for efficiently browsing larger collections of recipes. I also implemented local and session storage to persist relevant user choices and application state between pages and sessions.\n\n The application uses MongoDB for data storage, and I was in charge of implementing caching using Redis to reduce unnecessary database requests and improve data retrieval speed.",
         "futureAdditions": [
           "Host the page on a public accessible domain",
           "Host the server",
@@ -254,9 +256,11 @@
           }
         ],
         "highlights": [
-          "Backend implemented",
-          "Caching using redis is implemented",
-          "Extensive testing: end to end, component and snapshot tests"
+          "Frontend and Backend implemented",
+          "Caching using Redis is implemented",
+          "Session and Local storage",
+          "Testing: end-to-end, component and snapshot tests",
+          "Focus on Universal Design"
         ],
         "imagesFolder": "",
         "images": []
@@ -267,18 +271,18 @@
       "title": "Diagnosefellen",
       "github": "https://github.com/ingvildsandven/diagnosefellen/",
       "hosted": "",
-      "image": "https://i.postimg.cc/L8zBZMgd/book.webp",
+      "image": "https://i.postimg.cc/jShZMhq9/Screenshot-2026-08-17-203301.png",
       "shortDescription": "Site for Henriette Sandven",
       "startDate": "13-12-2025",
       "endDate": "",
       "collaborators": [],
       "longDescription": {
         "intro": "Henriette Sandven is a specialist in child and adolescent psychiatry, and in 2025 she published the book Diagnosefellen, which discusses how too many children today are being diagnosed and medicated unnecessarily. She has been particularly outspoken in the public ADHD debate, which has received significant attention in Norwegian media. With over 15 years of clinical experience, Henriette has developed a strong professional voice in her field — and, as her name suggests, I am also proud to be her daughter.",
-        "motivation": "Since the publication of her book, Henriette has received numerous requests to participate in podcasts, lectures, interviews, articles, and other public appearances. In connection with these requests, she is often asked to provide written information about the topics she can speak about, her professional perspective, and relevant background material. At the same time, many people are unsure of her stance on certain issues and want an accessible source where her work and contributions are clearly presented. \n\n The motivation behind this project is therefore to develop a dedicated website that gathers and organizes her public content in one place. The site will function as a structured archive of relevant material, such as podcasts, lectures, interviews, articles, and other appearances making it easy to find, share, and keep updated over time. In addition, the website will include a booking/contact form, allowing event organizers and media outlets to reach Henriette directly by email for speaking engagements and collaborations.",
-        "process": "This is still a fresh project, however the domain diagnosefellen.no is bought.",
+        "motivation": "Following the publication of Diagnosefellen, Henriette has participated in podcasts, interviews, articles, lectures, and other public appearances. The goal of this project was to gather this content in one place while also providing an easy way for event organizers and media outlets to contact and book her for speaking engagements.",
+        "process": "I designed and developed diagnosefellen.no from the ground up. The MVP is complete, although the website is still under active development. The site provides a paginated media archive where Henriette's articles, podcasts, interviews, and other appearances can be easily found. I also implemented a booking form and mailing service, allowing speaking and media requests to be sent directly through the website.\n\n To make the site maintainable without requiring changes to the code, I created a protected admin interface where Henriette can add new media appearances herself. When a link is entered, a script automatically retrieves available metadata such as the title, description, and image and uses it to pre-fill the form. The information can then be reviewed and edited before the post is published.\n\n The project also includes database integration, authentication, pagination, and functionality for managing media posts.",
         "futureAdditions": [
           "Admin site",
-          "Mail setup",
+          "Mail setup for Resend",
           "Booking form",
           "Booking security with focus on security from hate mail",
           "Main page containing links and images"
@@ -315,23 +319,33 @@
             "link": "https://resend.com"
           }
         ],
-        "highlights": ["Real project with real client"],
+        "highlights": ["Real project with real client", "Hosted webpage that will be used", "Mail for domain diagnosefellen.no is set up"],
         "imagesFolder": "",
         "images": [
           {
-            "image": "https://i.postimg.cc/RhZ4w9Z7/Leikny_Havik_Avstandsbilde.webp",
-            "alt": "Photograph of Henriette Sandven by Leikny Havik",
-            "span": 2
+            "image": "https://i.postimg.cc/jShZMhq9/Screenshot-2026-08-17-203301.png",
+            "alt": "Homepage diagnosefellen",
+            "span": 6
           },
           {
             "image": "https://i.postimg.cc/L8zBZMgd/book.webp",
-            "span": 2,
+            "span": 3,
             "alt": "Book cover of diagnosefellen"
           },
           {
-            "image": "https://i.postimg.cc/5N4S6gjs/Leikny-Havik-Normal.webp",
-            "alt": "Up close photograph of Henriette Sandven by Leikny Havik",
-            "span": 2
+            "image": "https://i.postimg.cc/kXGJJTzj/Screenshot-2026-08-17-203452.png",
+            "alt": "Admin page of diagnosefellen",
+            "span": 3
+          },
+          {
+            "image": "https://i.postimg.cc/V6Pv5Xnz/Screenshot-2026-08-17-203346.png",
+            "alt": "Media page of diagnosefellen",
+            "span": 6
+          },
+          {
+            "image": "https://i.postimg.cc/hj2kNBDj/Screenshot-2026-08-17-203355.png",
+            "alt": "Booking page of diagnosefellen",
+            "span": 6
           }
         ]
       }
@@ -346,18 +360,32 @@
       "endDate": "",
       "collaborators": [],
       "longDescription": {
-        "intro": "This startup company aims to create the social media platform designed so that you only spend a limited amount of time on the platform.",
-        "motivation": "From Social Minds websidte: Moderation on social media has long failed to protect us: From violence to misinformation and promotion of eating disorders. On Social Minds, protection is not an “add-on” - it’s our core. Plus, no AI generated content.",
-        "process": "\n\n So far we are a team of 6 that develop the solution to this. The codebase is private for now. See Social Minds website for more info.",
-        "futureAdditions": [""],
+        "intro": "Social Minds is a startup working to create a more responsible and user-focused social media platform. The platform is designed to encourage intentional use rather than endless scrolling, while prioritizing user privacy and avoiding the sharing or selling of personal data to third parties.",
+        "motivation": "From the Social Minds website: 'Moderation on social media has long failed to protect us: From violence to misinformation and promotion of eating disorders. On Social Minds, protection is not an “add-on” - it’s our core. Plus, no AI-generated content.' \n\n I was drawn to Social Minds because of its focus on building social media around the well-being of its users rather than maximizing engagement. The project also provides an opportunity to explore how software and platform design can encourage healthier online habits while still creating an engaging social experience.",
+        "process": "Social Minds is  currently a team of six, and I work as a Full-Stack Developer. The internship started during the summer of 2026, and as I found the company's values inspiring and made friends within the team, I decided to stay on the project while pursuing my master's degree. \n\n The codebase is private for now, however I encourage to visit the Social Minds website for more info (see link at the top of this page).",
+        "futureAdditions": [
+          "Create algorithms that avoid doom-scrolling on social media platforms and endless content consumption.",
+          "Remove AI-created art and posts",
+          "Ensure responsible handling of user data, including avoiding the sale or unnecessary sharing of personal data with third parties",
+          "Continue exploring design choices that encourage healthier and more intentional use of social media."
+        ],
         "technologyHighlights": [
           {
             "skill": "Flutter",
             "logo": "/icons/flutter.svg",
             "link": "https://flutter.dev/"
+          },
+          {
+            "skill": "Python",
+            "logo": "/icons/python.svg",
+            "link": "https://www.python.org/"
           }
         ],
-        "highlights": ["Startup company", "Team development"],
+        "highlights": [
+          "Startup company",
+          "Team development",
+          "Fullstack developer Internship"
+        ],
         "imagesFolder": "",
         "images": []
       }
