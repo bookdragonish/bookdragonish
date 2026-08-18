@@ -28,7 +28,7 @@
 
 .overlay {
   opacity: 0;
-  background: radial-gradient( rgba(61, 61, 61, 0.4), #000000);
+  background: radial-gradient( var(--box-background-low-opacity), var(--box-background));
   transition: opacity ease-out 0.2s;
 }
 
@@ -42,7 +42,7 @@
   font-size: clamp(1.2rem, 3vw, 2.5rem);
   opacity: 0;
   transition: all ease-in 0.3s;
-  color: #ffffff;
+  color: var(--font-color);
   transition-property: opacity, transform;
   transform: scale(0.8);
 }

@@ -1,8 +1,8 @@
 .experience {
   background-color: var(--main-color);
-  width: 95%;
-  padding-bottom: 7vh;
+  width: 97%;
 }
+
 .experience_title {
   text-transform: uppercase;
   letter-spacing: 2px;

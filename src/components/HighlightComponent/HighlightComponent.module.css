@@ -1,0 +1,56 @@
+.highlight_section {
+}
+
+.highlight_title_container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.line {
+  position: absolute;
+  left: 5%;
+  width: 90%;
+  height: 2px;
+  background-color: var(--main-color);
+  z-index: 1;
+}
+
+.highlight_title {
+  position: relative;
+  z-index: 2;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  background-color: var(--box-background);
+  padding: 2px 15px;
+}
+
+.highlight_section p{
+    margin: 0;
+}
+
+.highlight_section ul {
+  margin-inline: 5vw;
+}
+
+.highlight_section ul li {
+  text-align: left;
+}
+
+.highlight_section li span {
+  font-weight: bold;
+  border-bottom: 2px solid var(--main-color);
+  padding: 2px 4px;
+}
+
+/* .highlight_section li span {
+  font-weight: bold;
+  background-color: var(--main-color);
+  color: var(--background-color);
+  padding: 2px 4px;
+} */
