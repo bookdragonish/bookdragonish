@@ -1,8 +1,8 @@
 import type { Project } from "../../types/project";
-import ConstructionCard from "../ConstructionCard/ConstructionCard";
 import projectData from "../../api/projectData.json";
 import style from "./ConstructionComponent.module.css";
 import Excavator from "../ui/Excavator";
+import ConstructionCard from "./ConstructionCard/ConstructionCard";
 
 function ConstructionCompontent() {
   const data = projectData;
@@ -25,7 +25,9 @@ function ConstructionCompontent() {
           />
         ))}
       </section>
-      <Excavator />
+      
+        <Excavator className={style.padding_bottom}/>
+      
     </>
   );
 }

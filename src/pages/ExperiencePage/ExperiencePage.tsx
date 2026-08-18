@@ -7,6 +7,7 @@ import ToTopButton from "../../components/ToTopButton/ToTopButton";
 import type { Experience } from "../../types/image";
 import { ChevronLeft } from "lucide-react";
 import Gears from "../../components/ui/Gears";
+import Timeline from "../../components/ui/Timeline";
 
 function ExperiencePage() {
   const { title } = useParams();
@@ -49,6 +50,7 @@ function ExperiencePage() {
 
       <section className={style.info_container}>
         <h1>{data.title}</h1>
+        <Timeline startDate={data.startDate} endDate={data.endDate}/>
         <p>{data.description}</p>
       </section>
       <div className={style.gear_container}>

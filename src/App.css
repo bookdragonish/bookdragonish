@@ -18,8 +18,8 @@
 [data-theme="dark"] {
   --main-color: #8ea58d;
   --element-color: #d1a980;
-  --background-color: #282828;
-  --box-background: #3f3f3f;
+  --background-color: #3f3f3f;
+  --box-background: #282828;
   --box-background-low-opacity: rgba(63, 63, 63, 0.4);
   --header-color: #e5e0d8;
   --font-color: #f8f8f8;

@@ -319,7 +319,11 @@
             "link": "https://resend.com"
           }
         ],
-        "highlights": ["Real project with real client", "Hosted webpage that will be used", "Mail for domain diagnosefellen.no is set up"],
+        "highlights": [
+          "Real project with real client",
+          "Hosted webpage that will be used",
+          "Mail for domain diagnosefellen.no is set up"
+        ],
         "imagesFolder": "",
         "images": [
           {
@@ -355,7 +359,7 @@
       "github": "",
       "hosted": "https://oursocialminds.com/",
       "image": "https://i.postimg.cc/ZRj8P4QY/somi.png",
-      "shortDescription": "A social media platform",
+      "shortDescription": "Social media platform internship",
       "startDate": "01-06-2026",
       "endDate": "",
       "collaborators": [],
@@ -390,12 +394,12 @@
         "images": []
       }
     },
-    "mia": {
-      "title": "MIA",
+    "m.i.a.": {
+      "title": "M.I.A.",
       "github": "https://github.com/markuswathle/MIA",
       "hosted": "",
-      "image": "",
-      "shortDescription": "",
+      "image": "https://i.postimg.cc/m2DRM9KM/mia-homepage.webp",
+      "shortDescription": "Hobby project with friends",
       "startDate": "03-06-2026",
       "endDate": "",
       "collaborators": [
@@ -411,10 +415,10 @@
         }
       ],
       "longDescription": {
-        "intro": "",
-        "motivation": "",
-        "process": "",
-        "futureAdditions": ["Mobile application", "database sync"],
+        "intro": "This is an ongoing hobby project developed together with two classmates from my Informatics degree at NTNU. Unlike our university projects, there are no deadlines or formal requirements, so we work on the application whenever we have time and use it as an opportunity to experiment with new ideas and technologies.",
+        "motivation": "The idea came from our own experiences with party games. We often found ourselves searching online for question lists, game ideas, or simple tools such as a dice or a deck of cards. We wanted to bring all of these into one application and add the features we felt were missing from existing party game apps. \n\n The MVP is now complete and includes collections such as 100 Questions, different party games, a card deck, dice, and a customizable spin-the-wheel game.",
+        "process": "I have worked on both the functionality and design of the application. A particular focus has been creating reusable components and a theming system that allows the appearance of the entire application to change depending on the selected mode. The application currently supports light and dark mode, but the system is designed to support more distinctive themes in the future. One planned example is a computer science theme using pixel-style icons and programming-inspired fonts. We would also like to create themes inspired by other fields, such as medicine and chemistry, allowing users to personalize the application to their interests.\n\n Since this is an experimental side project, we are testing vibecoding using AI-assisted development for some smaller and repetitive features. Any generated code is reviewed and adjusted by us before being included in the codebase.\n\n Our next major feature is a group system, which will allow us to build games around the people participating rather than only providing standalone party-game tools.\n\n One planned feature is Sidequests, where each person receives individual challenges to complete throughout the evening, such as taking a picture with a stranger. We also want groups to be able to collect and share memorable photos and quotes from the evening within the application.",
+        "futureAdditions": ["Group creation and group-based games", "Sidequests and individual challenges", "Shared photos and quotes within groups", "Additional customizable themes", "More party games and utilities as we come up with new ideas"],
         "technologyHighlights": [
           {
             "skill": "React Native",
@@ -425,9 +429,18 @@
             "skill": "Typescript",
             "logo": "/icons/typescript.svg",
             "link": "https://www.typescriptlang.org/"
+          },
+          {
+            "skill": "Supabase",
+            "logo": "/icons/supabase.svg",
+            "link": "https://supabase.com/"
           }
         ],
-        "highlights": ["Hobby project with friends"],
+        "highlights": [
+          "Hobby project with friends",
+          "Mobile application",
+          "Vibe coding"
+        ],
         "imagesFolder": "",
         "images": []
       }

@@ -7,7 +7,7 @@ import ImageGrid from "../../components/ImageGrid/ImageGrid";
 import ToTopButton from "../../components/ToTopButton/ToTopButton";
 import { ChevronLeft } from "lucide-react";
 import Excavator from "../../components/ui/Excavator";
-import Timeline from "../../components/ui/TimeLine";
+import Timeline from "../../components/ui/Timeline";
 
 function ProjectPage() {
   const { title } = useParams();

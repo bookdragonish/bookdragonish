@@ -4,6 +4,7 @@ import ExperienceComponent from "../../components/ExperienceComponent/Experience
 import SummaryComponent from "../../components/SummaryComponent/SummaryComponent";
 import style from "./HomePage.module.css";
 import type { CSSProperties } from "react";
+import HighlightComponent from "../../components/HighlightComponent/HighlightComponent";
 
 type StyleWithVars = CSSProperties & {
   ["--summary-h"]?: string;
@@ -43,6 +44,7 @@ function HomePage() {
       <div className={style.overlay}>
         <ConstructionCompontent />
         <ExperienceComponent />
+        <HighlightComponent />
       </div>
     </main>
   );
