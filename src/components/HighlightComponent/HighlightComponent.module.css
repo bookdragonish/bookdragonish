@@ -1,4 +1,5 @@
 .highlight_section {
+  overflow: hidden;
 }
 
 .highlight_title_container {
@@ -9,6 +10,7 @@
   width: 100%;
 }
 
+/* TITLE LINE */
 
 .line {
   position: absolute;
@@ -17,7 +19,16 @@
   height: 2px;
   background-color: var(--main-color);
   z-index: 1;
+
+  transform: scaleX(0);
+  transform-origin: center;
 }
+
+.visible .line {
+  animation: lineReveal 0.8s ease-out forwards;
+}
+
+/* TITLE */
 
 .highlight_title {
   position: relative;
@@ -28,11 +39,29 @@
 
   background-color: var(--box-background);
   padding: 2px 15px;
+
+  opacity: 0;
+  transform: translateY(10px) scale(0.95);
 }
 
-.highlight_section p{
-    margin: 0;
+.visible .highlight_title {
+  animation: titleReveal 0.5s ease-out 0.35s forwards;
 }
+
+/* INTRO TEXT */
+
+.highlight_section p {
+  margin: 0;
+
+  opacity: 0;
+  transform: translateY(8px);
+}
+
+.visible p {
+  animation: fadeUp 0.5s ease-out 0.55s forwards;
+}
+
+/* LIST */
 
 .highlight_section ul {
   margin-inline: 5vw;
@@ -40,17 +69,166 @@
 
 .highlight_section ul li {
   text-align: left;
+
+  opacity: 0;
+  transform: translateX(30px);
 }
+
+.visible ul li {
+  animation: itemReveal 0.55s ease-out forwards;
+}
+
+/* stagger list items */
+
+.visible ul li:nth-child(1) {
+  animation-delay: 0.7s;
+}
+
+.visible ul li:nth-child(2) {
+  animation-delay: 0.85s;
+}
+
+.visible ul li:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.visible ul li:nth-child(4) {
+  animation-delay: 1.15s;
+}
+
+.visible ul li:nth-child(5) {
+  animation-delay: 1.3s;
+}
+
+.visible ul li:nth-child(6) {
+  animation-delay: 1.45s;
+}
+
+/* HIGHLIGHTED WORDS */
 
 .highlight_section li span {
+  position: relative;
+
   font-weight: bold;
-  border-bottom: 2px solid var(--main-color);
   padding: 2px 4px;
 }
 
-/* .highlight_section li span {
-  font-weight: bold;
+/* animated underline */
+
+.highlight_section li span::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 2px;
+
   background-color: var(--main-color);
-  color: var(--background-color);
-  padding: 2px 4px;
-} */
+
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.visible li span::after {
+  animation: underlineReveal 0.45s ease-out forwards;
+}
+
+/* underline delays */
+
+.visible li:nth-child(1) span::after {
+  animation-delay: 1s;
+}
+
+.visible li:nth-child(2) span::after {
+  animation-delay: 1.15s;
+}
+
+.visible li:nth-child(3) span::after {
+  animation-delay: 1.3s;
+}
+
+.visible li:nth-child(4) span::after {
+  animation-delay: 1.45s;
+}
+
+.visible li:nth-child(5) span::after {
+  animation-delay: 1.6s;
+}
+
+.visible li:nth-child(6) span::after {
+  animation-delay: 1.75s;
+}
+
+/* ANIMATIONS */
+
+@keyframes lineReveal {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes titleReveal {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes itemReveal {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes underlineReveal {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+  .line,
+  .highlight_title,
+  .highlight_section p,
+  .highlight_section ul li,
+  .highlight_section li span::after {
+    animation: none !important;
+    opacity: 1;
+    transform: none;
+  }
+}

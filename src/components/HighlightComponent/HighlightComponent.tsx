@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import style from "./HighlightComponent.module.css";
 
 const highlights = [
@@ -33,12 +34,45 @@ const highlights = [
 ];
 
 function HighlightComponent() {
+  const sectionRef = useRef<HTMLElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const section = sectionRef.current;
+    if (!section) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+
+          // Remove this line if you want the animation
+          // to replay every time you scroll into view.
+          observer.unobserve(entry.target);
+        }
+      },
+      {
+        threshold: 0.2,
+      }
+    );
+
+    observer.observe(section);
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section className={style.highlight_section}>
+    <section
+      ref={sectionRef}
+      className={`${style.highlight_section} ${
+        isVisible ? style.visible : ""
+      }`}
+    >
       <article className={style.highlight_title_container}>
         <span className={style.line}></span>
         <h2 className={style.highlight_title}>Highlights</h2>
       </article>
+
       <p>These keypoint summarize my page, if you have limited time!</p>
 
       <ul>
@@ -49,4 +83,5 @@ function HighlightComponent() {
     </section>
   );
 }
+
 export default HighlightComponent;
