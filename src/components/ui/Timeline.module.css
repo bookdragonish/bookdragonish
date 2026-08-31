@@ -1,0 +1,127 @@
+.timeline {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.date {
+  white-space: nowrap;
+  font-size: 0.9rem;
+}
+
+/* ---------------- */
+/* LINE CONTAINER   */
+/* ---------------- */
+
+.track {
+  position: relative;
+  flex: 1;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+/* ---------------- */
+/* ANIMATED LINE    */
+/* ---------------- */
+
+.line {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+
+  height: 2px;
+
+  background: var(--element-color);
+
+  transform-origin: left center;
+
+  will-change: transform;
+}
+
+/* ---------------- */
+/* START MARKER     */
+/* ---------------- */
+
+.marker {
+  position: absolute;
+  left: 0;
+
+  width: 2px;
+  height: 14px;
+
+  background: var(--element-color);
+
+  z-index: 2;
+}
+
+/* ---------------- */
+/* END MARKER       */
+/* ---------------- */
+
+.endMarker {
+  position: absolute;
+  right: 0;
+
+  width: 2px;
+  height: 14px;
+
+  background: var(--element-color);
+
+  opacity: 0;
+
+  transition: opacity 200ms ease;
+}
+
+/* ---------------- */
+/* ARROW            */
+/* ---------------- */
+
+.arrow {
+  position: absolute;
+  right: -1px;
+
+  width: 8px;
+  height: 8px;
+
+  border-top: 2px solid var(--element-color);
+  border-right: 2px solid var(--element-color);
+
+  transform: rotate(45deg);
+
+  opacity: 0;
+
+  transition: opacity 200ms ease;
+}
+
+/* ---------------- */
+/* VISIBILITY       */
+/* ---------------- */
+
+.visible {
+  opacity: 1;
+}
+
+.endDate {
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+
+.endDate.visible {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .line {
+    transform: scaleX(1) !important;
+  }
+
+  .endMarker,
+  .arrow,
+  .endDate {
+    opacity: 1;
+  }
+}

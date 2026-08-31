@@ -6,6 +6,9 @@ import SkillButton from "../../components/SkillButton/SkillButton";
 import ImageGrid from "../../components/ImageGrid/ImageGrid";
 import ToTopButton from "../../components/ToTopButton/ToTopButton";
 import { ChevronLeft } from "lucide-react";
+import Excavator from "../../components/ui/Excavator";
+import Timeline from "../../components/ui/Timeline";
+import ProjectPageNav from "../../components/ProjectPageNav/ProjectPageNav";
 
 function ProjectPage() {
   const { title } = useParams();
@@ -46,24 +49,7 @@ function ProjectPage() {
 
       <h1>{projectData.title}</h1>
 
-      <span className={style.linking_background}></span>
-      <section className={style.linking_container}>
-        {projectData.hosted ? (
-          <SkillButton
-            skill={"Link to Page"}
-            logo={"/icons/link.svg"}
-            link={projectData.hosted}
-          />
-        ) : (
-          ""
-        )}
-        <SkillButton
-          skill={"GitHub"}
-          logo={"/icons/github.svg"}
-          link={projectData.github}
-        />{" "}
-      </section>
-      <span className={style.linking_background}></span>
+<ProjectPageNav hostedLink={projectData.hosted} githubLink={projectData.github}/>
 
       <div className={style.section_container}>
         <img
@@ -131,14 +117,15 @@ function ProjectPage() {
           <span className={style.line}></span>
           <h2>Description</h2>
         </div>
-        <p>
-          {" "}
-          {projectData.startDate}{" "}
-          {projectData.endDate ? "- " + projectData.endDate : ""}
-        </p>
+
         <p>{projectData.longDescription.intro}</p>
+        <Timeline
+          startDate={projectData.startDate}
+          endDate={projectData.endDate}
+        />
         <h3 className={style.h3}>Motivation</h3>
         <p>{projectData.longDescription.motivation}</p>
+        <Excavator />
         <h3 className={style.h3}>Process</h3>
         <p>{projectData.longDescription.process}</p>
         <h3 className={style.h3}>Future Additions</h3>
