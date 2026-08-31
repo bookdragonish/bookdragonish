@@ -2,7 +2,14 @@ import { useEffect, useState } from "react";
 import style from "./Gears.module.css";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
-type LottieData = Record<string, any>;
+type LottieData = Record<string, unknown>;
+
+type LottieFill = {
+  ty?: string;
+  c?: {
+    k?: number[];
+  };
+};
 
 function hexToLottieRgb(hex: string) {
   const cleaned = hex.replace("#", "");
@@ -14,15 +21,17 @@ function hexToLottieRgb(hex: string) {
   return [r, g, b, 1];
 }
 
-function replaceFillColors(obj: any, color: number[]) {
+function replaceFillColors(obj: unknown, color: number[]): void {
   if (!obj || typeof obj !== "object") return;
 
+  const lottieObj = obj as LottieFill;
+
   if (
-    obj.ty === "fl" &&
-    obj.c?.k &&
-    Array.isArray(obj.c.k)
+    lottieObj.ty === "fl" &&
+    lottieObj.c?.k &&
+    Array.isArray(lottieObj.c.k)
   ) {
-    obj.c.k = color;
+    lottieObj.c.k = color;
   }
 
   for (const value of Object.values(obj)) {

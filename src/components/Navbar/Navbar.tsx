@@ -1,4 +1,3 @@
-import { Link } from "react-router";
 import ToggleThemeButton from "../ToggleThemeButton/ToggleThemeButton";
 import style from "./Navbar.module.css";
 

@@ -8,7 +8,8 @@ main {
 
 /*nav*/
 .nav {
-  width: 102%;
+  align-self: flex-start;
+
   display: flex;
   position: sticky;
   top: 2px;
@@ -27,8 +28,6 @@ main {
 .link p{
   margin-block: 15px;
 }
-
-
 
 /*page content*/
 .section_container {

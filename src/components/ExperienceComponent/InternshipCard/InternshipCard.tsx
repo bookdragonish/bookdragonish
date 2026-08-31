@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router";
 import style from "./InternshipCard.module.css";
+import { ChevronRight } from "lucide-react";
 
 type CardProps = {
   img_link: string;
@@ -9,11 +10,7 @@ type CardProps = {
   title: string;
 };
 
-function InternshipCard({
-  img_link,
-  page_link,
-  alt,
-}: CardProps) {
+function InternshipCard({ img_link, page_link, alt }: CardProps) {
   const cardRef = useRef<HTMLElement>(null);
   const [progress, setProgress] = useState(0);
 
@@ -39,7 +36,7 @@ function InternshipCard({
 
       const newProgress = Math.min(
         1,
-        Math.max(0, distanceScrolled / animationDistance)
+        Math.max(0, distanceScrolled / animationDistance),
       );
 
       setProgress(newProgress);
@@ -80,10 +77,7 @@ function InternshipCard({
 
   return (
     <Link to={page_link} className={style.internship_link}>
-      <article
-        ref={cardRef}
-        className={style.internship_article}
-      >
+      <article ref={cardRef} className={style.internship_article}>
         <div
           className={style.info_container}
           style={{
@@ -91,19 +85,15 @@ function InternshipCard({
           }}
         >
           <h3>Check out my Internship the Summer 2026</h3>
-
-          <p>
-            Team collaborators on making an Ethical Social Media
-            plattform
-          </p>
+          <p>Team collaborators on making an Ethical Social Media plattform</p>
+          <div className={style.read_more_container}>
+            <p>Read more </p>
+            <ChevronRight />
+          </div>{" "}
         </div>
 
         <div className={style.image_container}>
-          <img
-            src={img_link}
-            alt={alt}
-            loading="lazy"
-          />
+          <img src={img_link} alt={alt} loading="lazy" />
         </div>
       </article>
     </Link>

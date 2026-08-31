@@ -27,7 +27,7 @@ function ExperiencePage() {
 
   if (!data) {
     return (
-      <main className={style.nav}>
+      <main className={style.main}>
         <nav className={style.nav}>
           <Link to="/" className={style.link}>
             <ChevronLeft /> <p>Back</p>

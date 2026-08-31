@@ -42,6 +42,13 @@
   margin-top: 0;
 }
 
+.read_more_container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: underline;
+}
+
 .image_container {
   position: relative;
   width: 60%;
@@ -81,5 +88,9 @@
 
   .info_container h3 {
     text-decoration: underline;
+  }
+
+  .read_more_container{
+    justify-content: center;
   }
 }
