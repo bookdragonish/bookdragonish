@@ -11,3 +11,9 @@
     margin: 0;
     padding: 20px;
 }
+
+.gear_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

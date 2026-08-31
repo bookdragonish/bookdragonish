@@ -1,0 +1,1 @@
+All animations (see UI folder in components folder) are vibecoded using AI.

@@ -10,6 +10,8 @@ export interface imagesArray {
 }
 
 export type Experience = {
+  startDate: string;
+  endDate: string;
   title: string;
   images: imagesArray[];
   description: string;

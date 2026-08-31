@@ -4,6 +4,7 @@
   position: fixed;
   right: 20px;
   bottom: 20px;
+  z-index: 11;
 }
 
 .to_top_icon{

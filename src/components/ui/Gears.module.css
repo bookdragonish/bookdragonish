@@ -1,0 +1,10 @@
+.container {
+  width: 180px;
+  display: flex;
+  justify-content: center;
+}
+
+.container canvas {
+  width: 100%;
+  height: 100%;
+}

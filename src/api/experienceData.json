@@ -2,50 +2,154 @@
   {
     "title": "Graphcore",
     "description": "My most relevant work experience is the on-call position I held for three years at Graphcore AS. Graphcore works on developing accelerators for AI and machine learning. \n\n There, I worked with experienced people who had valuable knowledge from several decades in the industry. I supported the hardware team with testing and writing test reports, lab setup, and assembling prototypes. The prototypes included M2000 systems, high-frequency cables, and optical components. In hindsight, I have found it extremely exciting to learn things at NTNU that I can directly relate to the work I did at Graphcore. \n\n See pictures bellow.",
+    "startDate": "01-12-2019",
+    "endDate": "31-12-2021",
     "images": [
-      { "image": "https://i.postimg.cc/DZH8gB8M/Graphcore_logo.webp", "alt": "Grapchore logo", "span": 4 },
-      { "image": "https://i.postimg.cc/W473Bst9/graphcore.webp", "alt": "Grapchore image","span": 2 },
+      {
+        "image": "https://i.postimg.cc/DZH8gB8M/Graphcore_logo.webp",
+        "alt": "Grapchore logo",
+        "span": 4
+      },
+      {
+        "image": "https://i.postimg.cc/W473Bst9/graphcore.webp",
+        "alt": "Grapchore image",
+        "span": 2
+      },
 
-      { "image": "https://i.postimg.cc/TYhTwRSG/lab.webp", "alt": "Lab setup", "span": 6 },
+      {
+        "image": "https://i.postimg.cc/TYhTwRSG/lab.webp",
+        "alt": "Lab setup",
+        "span": 6
+      },
 
-      { "image": "https://i.postimg.cc/Dfx2nWx9/attest.png", "alt": "Attest from graphcore", "span": 3 },
-      { "image": "https://i.postimg.cc/fW8wD3HQ/chip.webp", "alt": "Chips", "span": 3 },
+      {
+        "image": "https://i.postimg.cc/Dfx2nWx9/attest.png",
+        "alt": "Attest from graphcore",
+        "span": 3
+      },
+      {
+        "image": "https://i.postimg.cc/fW8wD3HQ/chip.webp",
+        "alt": "Chips",
+        "span": 3
+      },
 
-      { "image": "https://i.postimg.cc/MKXzTW4B/rack1.webp", "alt": "Rack setup 1", "span": 2 },
-      { "image": "https://i.postimg.cc/vHDGBQjw/ipu.webp", "alt": "Ipu machines", "span": 2 },
-      { "image": "https://i.postimg.cc/xTq9C07H/rack2.webp", "alt": "Rack setup 2", "span": 2 },
+      {
+        "image": "https://i.postimg.cc/MKXzTW4B/rack1.webp",
+        "alt": "Rack setup 1",
+        "span": 2
+      },
+      {
+        "image": "https://i.postimg.cc/vHDGBQjw/ipu.webp",
+        "alt": "Ipu machines",
+        "span": 2
+      },
+      {
+        "image": "https://i.postimg.cc/xTq9C07H/rack2.webp",
+        "alt": "Rack setup 2",
+        "span": 2
+      },
 
-      { "image": "https://i.postimg.cc/m2qB1vfh/rack3.webp", "alt": "Rack setup 3", "span": 3 },
-      { "image": "https://i.postimg.cc/TYSf5zMw/tests.webp", "alt": "Test results for ipu scan", "span": 3 },
+      {
+        "image": "https://i.postimg.cc/m2qB1vfh/rack3.webp",
+        "alt": "Rack setup 3",
+        "span": 3
+      },
+      {
+        "image": "https://i.postimg.cc/TYSf5zMw/tests.webp",
+        "alt": "Test results for ipu scan",
+        "span": 3
+      },
 
-      { "image": "https://i.postimg.cc/1Rv9sgWZ/cable_setup_ipus.webp", "alt": "Cable setup", "span": 3 },
-      { "image": "https://i.postimg.cc/kXD74nZq/lab2.webp", "alt": "Lab setup 2", "span": 3 },
+      {
+        "image": "https://i.postimg.cc/1Rv9sgWZ/cable_setup_ipus.webp",
+        "alt": "Cable setup",
+        "span": 3
+      },
+      {
+        "image": "https://i.postimg.cc/kXD74nZq/lab2.webp",
+        "alt": "Lab setup 2",
+        "span": 3
+      },
 
-      { "image": "https://i.postimg.cc/7Ybq6xc4/office.webp", "alt": "Grapchore office ", "span": 6 },
+      {
+        "image": "https://i.postimg.cc/7Ybq6xc4/office.webp",
+        "alt": "Grapchore office ",
+        "span": 6
+      },
 
-      { "image": "https://i.postimg.cc/jdCR5s9S/office2.webp", "alt": "Grapchore office 2", "span": 4 },
-      { "image": "https://i.postimg.cc/SNjmsy5z/rack.webp", "alt": "Rack setup", "span": 2 },
+      {
+        "image": "https://i.postimg.cc/jdCR5s9S/office2.webp",
+        "alt": "Grapchore office 2",
+        "span": 4
+      },
+      {
+        "image": "https://i.postimg.cc/SNjmsy5z/rack.webp",
+        "alt": "Rack setup",
+        "span": 2
+      },
 
-      { "image": "https://i.postimg.cc/J4tRn1gh/office3.webp", "alt": "Grapchore office 3", "span": 6 }
+      {
+        "image": "https://i.postimg.cc/J4tRn1gh/office3.webp",
+        "alt": "Grapchore office 3",
+        "span": 6
+      }
     ]
   },
   {
     "title": "Online",
     "description": "In 2024, I was part of the orientation week committee board (Velkom), together with 13 other members, responsible for planning and carrying out the orientation weeks for approximately 200 new Computer Science students at NTNU. The role required structured collaboration, clear division of responsibilities, and the ability to coordinate multiple parallel events over an intensive period. We organized a wide range of activities, including bowling, cinema nights, board game evenings, and the Online Games, as well as larger social events such as a silent disco, toga party, and joint events in collaboration with other student associations and study programmes. \n\n I was primarily responsible for profiling and practical implementation related to visibility and promotional material. This included taking lead responsibility for the design, ordering, and distribution of orientation shirts, banners, flyers, and other informational material delivered to new students. In addition, I actively contributed to general event planning and logistics.",
+    "startDate": "01-01-2024",
+    "endDate": "31-08-2024",
     "images": [
-      { "image": "https://i.postimg.cc/8PCz6dFV/logo.webp", "alt": "Online logo", "span": 6 },
+      {
+        "image": "https://i.postimg.cc/8PCz6dFV/logo.webp",
+        "alt": "Online logo",
+        "span": 6
+      },
 
-      { "image": "https://i.postimg.cc/hPGtd8Jj/togafest_vors.webp", "alt": "Image from togafest vors", "span": 3 },
-      { "image": "https://i.postimg.cc/wTBjm5tj/togafest.webp", "alt": "Togafest", "span": 3 },
+      {
+        "image": "https://i.postimg.cc/hPGtd8Jj/togafest_vors.webp",
+        "alt": "Image from togafest vors",
+        "span": 3
+      },
+      {
+        "image": "https://i.postimg.cc/wTBjm5tj/togafest.webp",
+        "alt": "Togafest",
+        "span": 3
+      },
 
-      { "image": "https://i.postimg.cc/hPGtd8JR/bowling.jpg", "alt": "Bowling event", "span": 3 },
-      { "image": "https://i.postimg.cc/TYP3Djyx/bowling1.webp", "alt": "Bowling event 2" , "span": 3 },
+      {
+        "image": "https://i.postimg.cc/hPGtd8JR/bowling.jpg",
+        "alt": "Bowling event",
+        "span": 3
+      },
+      {
+        "image": "https://i.postimg.cc/TYP3Djyx/bowling1.webp",
+        "alt": "Bowling event 2",
+        "span": 3
+      },
 
-      { "image": "https://i.postimg.cc/5Nt2C5HV/scilent_disco.jpg", "alt": "Scilent disco", "span": 3 },
-      { "image": "https://i.postimg.cc/sD2ghPB2/scilent_disco1.jpg", "alt": "Scilent disco 2", "span": 3 },
+      {
+        "image": "https://i.postimg.cc/5Nt2C5HV/scilent_disco.jpg",
+        "alt": "Scilent disco",
+        "span": 3
+      },
+      {
+        "image": "https://i.postimg.cc/sD2ghPB2/scilent_disco1.jpg",
+        "alt": "Scilent disco 2",
+        "span": 3
+      },
 
-      { "image": "https://i.postimg.cc/kX5gbNVB/vors.webp", "alt": "Vors hybel til hybel event", "span": 3 },
-      { "image": "https://i.postimg.cc/NfPf7yTQ/vors2.webp", "alt": "Vors hybel til hybel event 2", "span": 3 }
+      {
+        "image": "https://i.postimg.cc/kX5gbNVB/vors.webp",
+        "alt": "Vors hybel til hybel event",
+        "span": 3
+      },
+      {
+        "image": "https://i.postimg.cc/NfPf7yTQ/vors2.webp",
+        "alt": "Vors hybel til hybel event 2",
+        "span": 3
+      }
     ]
   }
 ]
