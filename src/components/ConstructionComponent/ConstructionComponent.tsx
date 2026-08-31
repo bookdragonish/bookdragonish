@@ -1,4 +1,4 @@
-import type { Project } from "../../types/project";
+import type { Project } from "../../types/project.ts";
 import projectData from "../../api/projectData.json";
 import style from "./ConstructionComponent.module.css";
 import Excavator from "../ui/Excavator";

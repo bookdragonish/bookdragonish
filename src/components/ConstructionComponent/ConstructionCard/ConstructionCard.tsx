@@ -1,5 +1,5 @@
 import style from "./ConstructionCard.module.css";
-import type { Project } from "../../types/project";
+import type { Project } from "../../../types/project";
 import { Link } from "react-router";
 
 function ConstructionCard({
